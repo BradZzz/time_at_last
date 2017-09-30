@@ -1,0 +1,3649 @@
+
+<========== Book: 0 ================>
+Book:  2 B R 0 2 B_Kurt Vonnegut
+Unique words:
+duncan         0.512682
+painter        0.336077
+mural          0.286246
+orderly        0.271686
+telephone      0.207142
+jr             0.199795
+billion        0.152813
+population     0.134431
+bureau         0.131632
+federal        0.124760
+planet         0.123494
+portrait       0.112026
+termination    0.110083
+hostess        0.108522
+chicago        0.106953
+aging          0.095415
+hospital       0.089620
+gas            0.087657
+volunteer      0.087571
+blackberry     0.080514
+dtype: float64
+<==== Writing Style ====>
+<======== subjectivity ==============>
+Overly Subjective Passages:  24
+Overly Objective Passages:  39
+<======== polarity ==============>
+Overly Positive Passages:  32
+Overly Negative Passages:  6
+<============ done ===========>
+
+
+<========== Book: 1 ================>
+Book:  A Christmas Carol_Charles Dickens
+Unique words:
+christmas    0.518464
+bob          0.426359
+tim          0.247237
+nephew       0.212613
+joe          0.161843
+tiny         0.139724
+ha           0.133516
+spirits      0.124546
+peter        0.123363
+jacob        0.122897
+phantom      0.111804
+fred         0.104506
+spectre      0.096740
+ebenezer     0.091914
+martha       0.091760
+niece        0.089402
+stave        0.086508
+hallo        0.086224
+humbug       0.077858
+ding         0.075248
+dtype: float64
+<==== Writing Style ====>
+A Doll's House_Henrik Ibsen: 0.168079429645
+<======== subjectivity ==============>
+Overly Subjective Passages:  2
+Overly Objective Passages:  0
+<======== polarity ==============>
+Overly Positive Passages:  5
+Overly Negative Passages:  0
+<============ done ===========>
+
+
+<========== Book: 2 ================>
+Book:  A Doll's House_Henrik Ibsen
+Unique words:
+ca              0.395844
+shuts           0.230095
+goes            0.210999
+wo              0.210875
+christmas       0.203435
+puts            0.191700
+goodnight       0.191700
+papa            0.182601
+tomorrow        0.181450
+today           0.162748
+goodbye         0.154276
+stove           0.144070
+takes           0.138122
+tonight         0.123485
+helen           0.121815
+doll            0.112764
+hm              0.108379
+tremendously    0.103360
+sofa            0.102930
+doorway         0.097119
+dtype: float64
+<==== Writing Style ====>
+A Christmas Carol_Charles Dickens: 0.168079429645
+<======== subjectivity ==============>
+Overly Subjective Passages:  17
+Overly Objective Passages:  0
+<======== polarity ==============>
+Overly Positive Passages:  3
+Overly Negative Passages:  5
+<============ done ===========>
+
+
+<========== Book: 3 ================>
+Book:  A Modest Proposal_Jonathan Swift
+Unique words:
+publick        0.427002
+breeder        0.245819
+shilling       0.211144
+annum          0.178031
+carcass        0.175689
+expence        0.167847
+proposal       0.156817
+computed       0.147492
+landlord       0.147063
+hath           0.113410
+maturely       0.107889
+subtract       0.107889
+exportation    0.104353
+cottager       0.098328
+labourer       0.098014
+tenant         0.098014
+pretender      0.095715
+dublin         0.093312
+jonathan       0.091087
+plump          0.090490
+dtype: float64
+<==== Writing Style ====>
+<======== subjectivity ==============>
+Overly Subjective Passages:  16
+Overly Objective Passages:  26
+<======== polarity ==============>
+Overly Positive Passages:  27
+Overly Negative Passages:  5
+<============ done ===========>
+
+
+<========== Book: 4 ================>
+Book:  A Study in Scarlet_Arthur Conan Doyle
+Unique words:
+holmes         0.639027
+sherlock       0.398168
+jefferson      0.237276
+lucy           0.185973
+ll             0.161983
+detective      0.156173
+cab            0.153049
+footnote       0.139931
+stamford       0.085879
+pill           0.077903
+cleveland      0.070265
+enoch          0.065057
+watson         0.061017
+hotel          0.060787
+joseph         0.059405
+hunter         0.058392
+afghanistan    0.057218
+ve             0.056132
+didn           0.053433
+police         0.051937
+dtype: float64
+<==== Writing Style ====>
+<======== subjectivity ==============>
+Overly Subjective Passages:  0
+Overly Objective Passages:  1
+<======== polarity ==============>
+Overly Positive Passages:  0
+Overly Negative Passages:  0
+<============ done ===========>
+
+
+<========== Book: 5 ================>
+Book:  A Tale of Two Cities_Charles Dickens
+Unique words:
+monseigneur    0.394958
+jerry          0.373776
+madame         0.350275
+monsieur       0.271316
+sydney         0.263027
+jacques        0.219392
+marquis        0.196016
+antoine        0.179966
+mender         0.163056
+spy            0.106504
+chateau        0.093056
+citizen        0.092611
+ll             0.089272
+knitting       0.085391
+guillotine     0.083313
+courtyard      0.080088
+bastille       0.079716
+coach          0.078621
+gaoler         0.070496
+republic       0.068878
+dtype: float64
+<==== Writing Style ====>
+<======== subjectivity ==============>
+Overly Subjective Passages:  0
+Overly Objective Passages:  0
+<======== polarity ==============>
+Overly Positive Passages:  0
+Overly Negative Passages:  0
+<============ done ===========>
+
+
+<========== Book: 6 ================>
+Book:  Adventures of Huckleberry Finn_Mark Twain
+Unique words:
+jim       0.494208
+ain       0.348399
+didn      0.346508
+ll        0.256066
+nigger    0.249627
+couldn    0.219476
+tom       0.207333
+en        0.193428
+wouldn    0.185335
+raft      0.134482
+duke      0.128728
+knowed    0.122368
+hain      0.114162
+dat       0.107244
+dey       0.106747
+ve        0.103240
+hadn      0.078342
+pap       0.074767
+canoe     0.071892
+sawyer    0.071003
+dtype: float64
+<==== Writing Style ====>
+A Study in Scarlet_Arthur Conan Doyle: 0.103872379066
+<======== subjectivity ==============>
+Overly Subjective Passages:  0
+Overly Objective Passages:  0
+<======== polarity ==============>
+Overly Positive Passages:  0
+Overly Negative Passages:  0
+<============ done ===========>
+
+
+<========== Book: 7 ================>
+Book:  After the War - A Southern Tour_Whitelaw Reid
+Unique words:
+negro         0.570050
+plantation    0.274600
+nigger        0.207173
+cotton        0.186034
+dollar        0.166030
+rebel         0.155506
+dey           0.132830
+southern      0.130504
+rebels        0.130108
+orleans       0.126309
+northern      0.125345
+planter       0.114050
+overseer      0.104284
+ll            0.100881
+footnote      0.099036
+yankees       0.096376
+carolina      0.096316
+yankee        0.095709
+dat           0.090801
+charleston    0.086739
+dtype: float64
+<==== Writing Style ====>
+<======== subjectivity ==============>
+Overly Subjective Passages:  0
+Overly Objective Passages:  1
+<======== polarity ==============>
+Overly Positive Passages:  0
+Overly Negative Passages:  0
+<============ done ===========>
+
+
+<========== Book: 8 ================>
+Book:  Alice's Adventures in Wonderland_Lewis Carroll
+Unique words:
+alice          0.938464
+hatter         0.156733
+turtle         0.125226
+dormouse       0.106048
+ll             0.091524
+rabbit         0.084179
+mock           0.080950
+duchess        0.078626
+ve             0.069681
+mouse          0.065491
+caterpillar    0.062673
+hare           0.052731
+dinah          0.041971
+dodo           0.035746
+lobster        0.029957
+doesn          0.029450
+hedgehog       0.028634
+soup           0.028121
+jury           0.025527
+didn           0.024942
+dtype: float64
+<==== Writing Style ====>
+<======== subjectivity ==============>
+Overly Subjective Passages:  6
+Overly Objective Passages:  0
+<======== polarity ==============>
+Overly Positive Passages:  2
+Overly Negative Passages:  0
+<============ done ===========>
+
+
+<========== Book: 9 ================>
+Book:  An Occurrence at Owl Creek Bridge_Ambrose Bierce
+Unique words:
+sergeant     0.256724
+civilian     0.206850
+sentinel     0.206829
+railroad     0.190357
+creek        0.187442
+fort         0.172629
+noose        0.155304
+rifle        0.153987
+owl          0.151840
+driftwood    0.108311
+downward     0.102934
+enforcing    0.100283
+alabama      0.100283
+plank        0.099407
+gray         0.098280
+stockade     0.094056
+picket       0.091396
+cannon       0.085198
+traveled     0.082740
+color        0.081009
+dtype: float64
+<==== Writing Style ====>
+<======== subjectivity ==============>
+Overly Subjective Passages:  15
+Overly Objective Passages:  20
+<======== polarity ==============>
+Overly Positive Passages:  16
+Overly Negative Passages:  7
+<============ done ===========>
+
+
+<========== Book: 10 ================>
+Book:  Anna Karenina_Leo Tolstoy
+Unique words:
+anna          0.614817
+kitty         0.528663
+dolly         0.262846
+ll            0.200623
+ve            0.180365
+princess      0.156870
+moscow        0.129711
+peasant       0.121791
+countess      0.120418
+betsy         0.101319
+petersburg    0.089128
+madame        0.061869
+didn          0.061469
+divorce       0.054583
+russian       0.053977
+rouble        0.048204
+today         0.043299
+laborer       0.039036
+obviously     0.037740
+doesn         0.035144
+dtype: float64
+<==== Writing Style ====>
+A Tale of Two Cities_Charles Dickens: 0.080638855733
+<======== subjectivity ==============>
+Overly Subjective Passages:  0
+Overly Objective Passages:  0
+<======== polarity ==============>
+Overly Positive Passages:  0
+Overly Negative Passages:  0
+<============ done ===========>
+
+
+<========== Book: 11 ================>
+Book:  Anne of Green Gables_L. M. Montgomery
+Unique words:
+anne        0.826685
+diana       0.309377
+matthew     0.270612
+ll          0.200618
+ve          0.135158
+gilbert     0.108020
+isn         0.088451
+didn        0.088353
+rachel      0.081981
+jane        0.074292
+ruby        0.058656
+shirley     0.057242
+wouldn      0.053595
+couldn      0.052202
+andrews     0.051980
+phillips    0.040550
+spencer     0.038722
+wasn        0.036985
+doesn       0.031135
+gable       0.028995
+dtype: float64
+<==== Writing Style ====>
+A Doll's House_Henrik Ibsen: 0.0945819581761
+<======== subjectivity ==============>
+Overly Subjective Passages:  0
+Overly Objective Passages:  0
+<======== polarity ==============>
+Overly Positive Passages:  1
+Overly Negative Passages:  0
+<============ done ===========>
+
+
+<========== Book: 12 ================>
+Book:  Beowulf_J. Lesslie Hall
+Unique words:
+warrior        0.273559
+kinsman        0.205368
+foeman         0.201246
+dragon         0.200353
+danes          0.195622
+jewel          0.185258
+finn           0.180895
+armor          0.174918
+bairn          0.173937
+suggests       0.158449
+helmet         0.148564
+translation    0.138785
+cf             0.132192
+retainer       0.130261
+emendation     0.116790
+earl           0.110935
+hoard          0.107945
+gr             0.106199
+prowess        0.100784
+ruler          0.097540
+dtype: float64
+<==== Writing Style ====>
+<======== subjectivity ==============>
+Overly Subjective Passages:  10
+Overly Objective Passages:  1
+<======== polarity ==============>
+Overly Positive Passages:  8
+Overly Negative Passages:  0
+<============ done ===========>
+
+
+<========== Book: 13 ================>
+Book:  Beyond Good and Evil_Friedrich Wilhelm Nietzsche
+Unique words:
+philosopher      0.376740
+morality         0.274522
+philosophy       0.207539
+nowadays         0.179178
+skepticism       0.123831
+germans          0.115724
+fundamentally    0.106896
+fundamental      0.104897
+european         0.100361
+refined          0.098022
+valuation        0.097152
+psychologist     0.096666
+wagner           0.093534
+oneself          0.090904
+culture          0.090047
+gregarious       0.083741
+kant             0.077300
+stupidity        0.077269
+artist           0.076625
+europeans        0.076138
+dtype: float64
+<==== Writing Style ====>
+<======== subjectivity ==============>
+Overly Subjective Passages:  1
+Overly Objective Passages:  0
+<======== polarity ==============>
+Overly Positive Passages:  0
+Overly Negative Passages:  0
+<============ done ===========>
+
+
+<========== Book: 14 ================>
+Book:  Candide_Voltaire
+Unique words:
+martin            0.574425
+voltaire          0.242108
+baron             0.234109
+abbé              0.218797
+jesuit            0.190530
+inquisitor        0.162072
+dorado            0.162072
+venice            0.131436
+friar             0.129660
+bulgarian         0.123693
+ayres             0.123693
+piastre           0.123693
+el                0.121000
+commandant        0.090686
+westphalia        0.088352
+galley            0.082756
+constantinople    0.081493
+skipper           0.081091
+marchioness       0.081036
+dethroned         0.080609
+dtype: float64
+<==== Writing Style ====>
+<======== subjectivity ==============>
+Overly Subjective Passages:  3
+Overly Objective Passages:  1
+<======== polarity ==============>
+Overly Positive Passages:  11
+Overly Negative Passages:  0
+<============ done ===========>
+
+
+<========== Book: 15 ================>
+Book:  Common Sense_Thomas Paine
+Unique words:
+hath              0.520622
+britain           0.314119
+continent         0.293443
+wherefore         0.205220
+colony            0.178740
+hereditary        0.146857
+viz               0.139067
+monarchy          0.133245
+constitution      0.132393
+congress          0.128633
+reconciliation    0.124130
+continental       0.116589
+unto              0.104811
+navy              0.100767
+repeal            0.085429
+samuel            0.085125
+connexion         0.080976
+dependance        0.077249
+quakers           0.077087
+posterity         0.070938
+dtype: float64
+<==== Writing Style ====>
+A Modest Proposal_Jonathan Swift: 0.102847391375
+<======== subjectivity ==============>
+Overly Subjective Passages:  2
+Overly Objective Passages:  6
+<======== polarity ==============>
+Overly Positive Passages:  4
+Overly Negative Passages:  0
+<============ done ===========>
+
+
+<========== Book: 16 ================>
+Book:  Crime and Punishment_Fyodor Dostoyevsky
+Unique words:
+ve            0.475898
+ll            0.460660
+rouble        0.360989
+didn          0.175349
+landlady      0.130579
+petersburg    0.116263
+sofa          0.111006
+porter        0.099895
+police        0.098302
+axe           0.097512
+muttered      0.090437
+lodging       0.089107
+couldn        0.087203
+isn           0.084799
+ach           0.081615
+wouldn        0.079620
+hm            0.078428
+tea           0.072338
+wasn          0.065290
+storey        0.061754
+dtype: float64
+<==== Writing Style ====>
+A Study in Scarlet_Arthur Conan Doyle: 0.175220259346
+A Tale of Two Cities_Charles Dickens: 0.129551934764
+A Doll's House_Henrik Ibsen: 0.0777925658051
+<======== subjectivity ==============>
+Overly Subjective Passages:  0
+Overly Objective Passages:  0
+<======== polarity ==============>
+Overly Positive Passages:  0
+Overly Negative Passages:  0
+<============ done ===========>
+
+
+<========== Book: 17 ================>
+Book:  Daphnis et Chloe_Longus
+Unique words:
+et       0.510391
+le       0.462716
+que      0.254480
+il       0.213117
+la       0.212816
+lui      0.189883
+en       0.181807
+ce       0.166472
+qui      0.140704
+se       0.135414
+comme    0.134190
+ne       0.113895
+leur     0.112728
+plus     0.106454
+aux      0.099229
+elle     0.098547
+avec     0.097538
+mais     0.096718
+si       0.094028
+une      0.086532
+dtype: float64
+<==== Writing Style ====>
+<======== subjectivity ==============>
+Overly Subjective Passages:  17
+Overly Objective Passages:  22
+<======== polarity ==============>
+Overly Positive Passages:  25
+Overly Negative Passages:  1
+<============ done ===========>
+
+
+<========== Book: 18 ================>
+Book:  Dealings with the Inquisition_Giacinto Achilli
+Unique words:
+inquisition    0.415984
+pope           0.331534
+cardinal       0.269878
+christ         0.257871
+priest         0.237068
+bishop         0.212413
+jesuits        0.183009
+monk           0.127943
+jesus          0.126546
+inquisitor     0.124287
+romish         0.122006
+italy          0.119336
+bible          0.117126
+roman          0.113554
+naples         0.108183
+friar          0.104665
+monastery      0.102558
+papal          0.083642
+jesuit         0.082815
+peter          0.082288
+dtype: float64
+<==== Writing Style ====>
+<======== subjectivity ==============>
+Overly Subjective Passages:  0
+Overly Objective Passages:  0
+<======== polarity ==============>
+Overly Positive Passages:  0
+Overly Negative Passages:  0
+<============ done ===========>
+
+
+<========== Book: 19 ================>
+Book:  Don Quixote_Miguel de Cervantes Saavedra
+Unique words:
+quixote     0.698870
+sancho      0.641385
+senor       0.171587
+panza       0.098435
+knight      0.092918
+curate      0.074196
+squire      0.065650
+duchess     0.050029
+camilla     0.048353
+duke        0.045732
+fernando    0.041512
+chivalry    0.036329
+barber      0.035375
+governor    0.032862
+teresa      0.032471
+damsel      0.030414
+del         0.029243
+la          0.027358
+pedro       0.027023
+inn         0.026567
+dtype: float64
+<==== Writing Style ====>
+<======== subjectivity ==============>
+Overly Subjective Passages:  0
+Overly Objective Passages:  0
+<======== polarity ==============>
+Overly Positive Passages:  0
+Overly Negative Passages:  0
+<============ done ===========>
+
+
+<========== Book: 20 ================>
+Book:  Dracula_Bram Stoker
+Unique words:
+mina          0.488117
+lucy          0.480466
+van           0.387018
+jonathan      0.323217
+seward        0.291424
+arthur        0.181594
+diary         0.168737
+morris        0.120183
+madam         0.099202
+whilst        0.099135
+journal       0.069493
+wolf          0.064972
+september     0.062112
+vampire       0.054298
+hawkins       0.046486
+piccadilly    0.042953
+sunset        0.042674
+telegram      0.041739
+october       0.039764
+coffin        0.037506
+dtype: float64
+<==== Writing Style ====>
+A Study in Scarlet_Arthur Conan Doyle: 0.122658872281
+<======== subjectivity ==============>
+Overly Subjective Passages:  0
+Overly Objective Passages:  0
+<======== polarity ==============>
+Overly Positive Passages:  0
+Overly Negative Passages:  0
+<============ done ===========>
+
+
+<========== Book: 21 ================>
+Book:  Dubliners_James Joyce
+Unique words:
+gabriel       0.502120
+kate          0.303624
+aunt          0.281199
+cunningham    0.274512
+browne        0.216989
+julia         0.202720
+ll            0.195190
+jane          0.168433
+ignatius      0.164960
+chandler      0.160212
+dublin        0.141180
+coy           0.122537
+joe           0.116674
+maria         0.114505
+jimmy         0.102066
+didn          0.087192
+tram          0.080460
+wouldn        0.074316
+whisky        0.068821
+concert       0.066181
+dtype: float64
+<==== Writing Style ====>
+A Study in Scarlet_Arthur Conan Doyle: 0.0799532523274
+<======== subjectivity ==============>
+Overly Subjective Passages:  0
+Overly Objective Passages:  0
+<======== polarity ==============>
+Overly Positive Passages:  1
+Overly Negative Passages:  0
+<============ done ===========>
+
+
+<========== Book: 22 ================>
+Book:  Emma_Jane Austen
+Unique words:
+emma          0.715814
+harriet       0.418247
+weston        0.377875
+fairfax       0.217189
+churchill     0.200968
+jane          0.182745
+bates         0.127393
+perry         0.072096
+cole          0.050421
+isabella      0.047560
+martin        0.042206
+dixon         0.040554
+campbell      0.039313
+smith         0.037280
+taylor        0.029651
+surprized     0.028838
+aunt          0.022776
+charade       0.021519
+maple         0.020858
+attachment    0.020281
+dtype: float64
+<==== Writing Style ====>
+<======== subjectivity ==============>
+Overly Subjective Passages:  0
+Overly Objective Passages:  0
+<======== polarity ==============>
+Overly Positive Passages:  0
+Overly Negative Passages:  0
+<============ done ===========>
+
+
+<========== Book: 23 ================>
+Book:  Essays of Michel de Montaigne_Michel de Montaigne
+Unique words:
+ti              0.501677
+tis             0.279509
+et              0.214462
+est             0.174887
+cicero          0.165870
+montaigne       0.153289
+seneca          0.134699
+plato           0.132223
+non             0.123943
+betwixt         0.115495
+plutarch        0.113170
+peradventure    0.106205
+quam            0.093117
+caesar          0.092165
+socrates        0.088491
+soever          0.085832
+horace          0.084700
+forasmuch       0.084305
+humour          0.083617
+quod            0.081530
+dtype: float64
+<==== Writing Style ====>
+<======== subjectivity ==============>
+Overly Subjective Passages:  0
+Overly Objective Passages:  0
+<======== polarity ==============>
+Overly Positive Passages:  0
+Overly Negative Passages:  0
+<============ done ===========>
+
+
+<========== Book: 24 ================>
+Book:  Essays_Ralph Waldo Emerson
+Unique words:
+footnote       0.893925
+emerson        0.325698
+poet           0.093200
+shakspeare     0.067917
+shakespeare    0.062708
+greek          0.054239
+essay          0.047812
+carlyle        0.046824
+chaucer        0.046759
+mythology      0.045554
+poem           0.033973
+prudence       0.032393
+philosopher    0.031167
+roman          0.027502
+statesman      0.026119
+labor          0.024758
+heroism        0.024627
+dramatist      0.024380
+whilst         0.023728
+milton         0.023721
+dtype: float64
+<==== Writing Style ====>
+A Study in Scarlet_Arthur Conan Doyle: 0.142602255913
+<======== subjectivity ==============>
+Overly Subjective Passages:  0
+Overly Objective Passages:  0
+<======== polarity ==============>
+Overly Positive Passages:  2
+Overly Negative Passages:  0
+<============ done ===========>
+
+
+<========== Book: 25 ================>
+Book:  Field Book of Common Rocks and Minerals_Corbin and Loomis
+Unique words:
+mineral         0.443985
+crystal         0.390223
+color           0.290096
+quartz          0.218578
+prism           0.215385
+luster          0.200974
+cleavage        0.200240
+hardness        0.186260
+occurs          0.168076
+illustration    0.140909
+limestone       0.138171
+lava            0.132587
+mica            0.107682
+granite         0.106620
+specific        0.106195
+ore             0.097601
+vitreous        0.086788
+acid            0.080907
+copper          0.080188
+fibrous         0.078752
+dtype: float64
+<==== Writing Style ====>
+<======== subjectivity ==============>
+Overly Subjective Passages:  0
+Overly Objective Passages:  3
+<======== polarity ==============>
+Overly Positive Passages:  0
+Overly Negative Passages:  0
+<============ done ===========>
+
+
+<========== Book: 26 ================>
+Book:  Frank Reade, Jr., Fighting the Terror of the Coast_Luis Senarens
+Unique words:
+fred          0.511942
+barney        0.456442
+jr            0.322850
+mexican       0.192152
+jove          0.177883
+pomp          0.161037
+nos           0.155858
+pirate        0.149266
+inventor      0.147494
+ll            0.122234
+coon          0.106332
+deck          0.102471
+electronic    0.100915
+ther          0.083683
+electric      0.080139
+schooner      0.079460
+irishman      0.077167
+plane         0.073747
+gwine         0.069116
+propeller     0.066796
+dtype: float64
+<==== Writing Style ====>
+2 B R 0 2 B_Kurt Vonnegut: 0.0754749290975
+<======== subjectivity ==============>
+Overly Subjective Passages:  5
+Overly Objective Passages:  1
+<======== polarity ==============>
+Overly Positive Passages:  10
+Overly Negative Passages:  0
+<============ done ===========>
+
+
+<========== Book: 27 ================>
+Book:  Frankenstein_Mary Wollstonecraft Shelley
+Unique words:
+elizabeth      0.411712
+felix          0.300005
+geneva         0.215156
+cottage        0.189926
+cottager       0.154839
+agatha         0.154183
+fiend          0.132312
+forever        0.124223
+victor         0.115247
+daemon         0.114686
+endeavoured    0.113735
+henry          0.093358
+quitted        0.091772
+murderer       0.090558
+william        0.086720
+creator        0.086435
+wretch         0.085745
+hovel          0.083911
+sledge         0.081643
+ernest         0.081643
+dtype: float64
+<==== Writing Style ====>
+<======== subjectivity ==============>
+Overly Subjective Passages:  2
+Overly Objective Passages:  0
+<======== polarity ==============>
+Overly Positive Passages:  1
+Overly Negative Passages:  0
+<============ done ===========>
+
+
+<========== Book: 28 ================>
+Book:  Goose-Quill Papers_Louise Imogen Guiney
+Unique words:
+illustration    0.286221
+electronic      0.208109
+boston          0.155051
+hath            0.154728
+gilt            0.138649
+copyright       0.122963
+vol             0.114138
+roberts         0.105286
+poem            0.099486
+archive         0.096261
+trademark       0.084785
+donation        0.083426
+license         0.082003
+brothers        0.080220
+refund          0.074250
+vagabond        0.073778
+poet            0.072146
+paragraph       0.072088
+fee             0.067256
+harper          0.064762
+dtype: float64
+<==== Writing Style ====>
+<======== subjectivity ==============>
+Overly Subjective Passages:  1
+Overly Objective Passages:  1
+<======== polarity ==============>
+Overly Positive Passages:  6
+Overly Negative Passages:  0
+<============ done ===========>
+
+
+<========== Book: 29 ================>
+Book:  Great Expectations_Charles Dickens
+Unique words:
+joe         0.734504
+pip         0.394641
+herbert     0.343758
+biddy       0.316817
+ll          0.128435
+ain         0.055063
+marsh       0.051631
+convict     0.051239
+didn        0.048639
+em          0.043199
+camilla     0.043078
+forge       0.042839
+wouldn      0.038156
+ve          0.035651
+sergeant    0.035294
+couldn      0.034687
+guardian    0.034069
+sarah       0.030752
+coach       0.030464
+joseph      0.028899
+dtype: float64
+<==== Writing Style ====>
+A Christmas Carol_Charles Dickens: 0.145919600432
+<======== subjectivity ==============>
+Overly Subjective Passages:  0
+Overly Objective Passages:  0
+<======== polarity ==============>
+Overly Positive Passages:  0
+Overly Negative Passages:  0
+<============ done ===========>
+
+
+<========== Book: 30 ================>
+Book:  Grimms' Fairy Tales_Jacob Grimm and Wilhelm Grimm
+Unique words:
+hans           0.537540
+princess       0.287322
+dwarf          0.232341
+fox            0.213097
+huntsman       0.209300
+tailor         0.199557
+chanticleer    0.175965
+wolf           0.156861
+peasant        0.155622
+bride          0.123403
+miller         0.115377
+goodbye        0.107670
+mouse          0.095808
+ll             0.091553
+fairy          0.085915
+frederick      0.084551
+raven          0.083985
+witch          0.083100
+goose          0.080249
+sparrow        0.078598
+dtype: float64
+<==== Writing Style ====>
+<======== subjectivity ==============>
+Overly Subjective Passages:  0
+Overly Objective Passages:  0
+<======== polarity ==============>
+Overly Positive Passages:  4
+Overly Negative Passages:  0
+<============ done ===========>
+
+
+<========== Book: 31 ================>
+Book:  Gulliver's Travels_Jonathan Swift
+Unique words:
+emperor       0.345271
+whereof       0.211909
+voyage        0.163159
+electronic    0.132763
+imperial      0.109461
+sorrel        0.106485
+metropolis    0.104209
+nag           0.101521
+bigness       0.097671
+license       0.097652
+specie        0.096183
+forbear       0.092803
+empire        0.092050
+gulliver      0.087878
+prodigious    0.087509
+cable         0.086884
+durst         0.085427
+canoe         0.080234
+fleet         0.075794
+japan         0.075219
+dtype: float64
+<==== Writing Style ====>
+A Modest Proposal_Jonathan Swift: 0.127519940896
+<======== subjectivity ==============>
+Overly Subjective Passages:  0
+Overly Objective Passages:  0
+<======== polarity ==============>
+Overly Positive Passages:  0
+Overly Negative Passages:  0
+<============ done ===========>
+
+
+<========== Book: 32 ================>
+Book:  Heart of Darkness_Joseph Conrad
+Unique words:
+manager       0.311621
+pilgrim       0.245417
+steamboat     0.212980
+ivory         0.193056
+steamer       0.157996
+marlow        0.146558
+wilderness    0.135095
+somber        0.129606
+rivet         0.125527
+chap          0.116673
+ca            0.108991
+nigger        0.098480
+deck          0.089932
+jungle        0.085090
+shutter       0.084800
+stretcher     0.082684
+seaman        0.079658
+helmsman      0.075215
+russian       0.070807
+murmured      0.068948
+dtype: float64
+<==== Writing Style ====>
+A Doll's House_Henrik Ibsen: 0.109208820893
+<======== subjectivity ==============>
+Overly Subjective Passages:  1
+Overly Objective Passages:  0
+<======== polarity ==============>
+Overly Positive Passages:  1
+Overly Negative Passages:  0
+<============ done ===========>
+
+
+<========== Book: 33 ================>
+Book:  Historical record of the Sixth_Richard Cannon
+Unique words:
+regiment       0.694491
+british        0.191378
+brigade        0.171617
+colonel        0.142965
+corp           0.142866
+garrison       0.134630
+william        0.130221
+battalion      0.123203
+fort           0.105726
+infantry       0.105084
+siege          0.103008
+netherlands    0.102757
+ireland        0.100006
+dragoon        0.099699
+embarked       0.096937
+earl           0.093755
+duke           0.092709
+grenadier      0.091162
+ditto          0.089729
+spain          0.086078
+dtype: float64
+<==== Writing Style ====>
+<======== subjectivity ==============>
+Overly Subjective Passages:  0
+Overly Objective Passages:  16
+<======== polarity ==============>
+Overly Positive Passages:  0
+Overly Negative Passages:  0
+<============ done ===========>
+
+
+<========== Book: 34 ================>
+Book:  History of Chemistry, Volume I (of 2)_Edward Thorpe
+Unique words:
+chemistry     0.498513
+acid          0.342568
+chemical      0.330499
+alchemy       0.185597
+boyle         0.171950
+atomic        0.171950
+oxygen        0.143575
+metal         0.143402
+compound      0.133757
+dalton        0.132952
+hydrogen      0.127671
+organic       0.117302
+gas           0.107772
+alchemist     0.105266
+paracelsus    0.101870
+chemist       0.101371
+davy          0.098051
+phenomenon    0.093949
+atom          0.092095
+sulphur       0.084740
+dtype: float64
+<==== Writing Style ====>
+<======== subjectivity ==============>
+Overly Subjective Passages:  1
+Overly Objective Passages:  6
+<======== polarity ==============>
+Overly Positive Passages:  2
+Overly Negative Passages:  0
+<============ done ===========>
+
+
+<========== Book: 35 ================>
+Book:  How to Analyze People on Sight_Elsie Lincoln Benedict
+Unique words:
+cerebral       0.590277
+muscular       0.445582
+bony           0.175186
+trait          0.145274
+vocation       0.111092
+environment    0.105466
+average        0.099467
+prefers        0.099217
+handicap       0.096811
+electronic     0.092374
+asset          0.090119
+muscle         0.089332
+combination    0.089137
+analysis       0.080747
+favorite       0.080260
+largely        0.079563
+car            0.078597
+enjoys         0.077492
+today          0.071688
+chart          0.069997
+dtype: float64
+<==== Writing Style ====>
+<======== subjectivity ==============>
+Overly Subjective Passages:  1
+Overly Objective Passages:  1
+<======== polarity ==============>
+Overly Positive Passages:  4
+Overly Negative Passages:  0
+<============ done ===========>
+
+
+<========== Book: 36 ================>
+Book:  Jane Eyre_Charlotte Bronte
+Unique words:
+jane          0.636979
+fairfax       0.368012
+bessie        0.341084
+reed          0.170873
+diana         0.134007
+rivers        0.109394
+helen         0.102070
+mason         0.097274
+hannah        0.085547
+mama          0.080715
+poole         0.077509
+schoolroom    0.072503
+burns         0.068438
+governess     0.066947
+morton        0.065092
+leah          0.065089
+eliza         0.064161
+oliver        0.059023
+moor          0.056699
+dent          0.055245
+dtype: float64
+<==== Writing Style ====>
+<======== subjectivity ==============>
+Overly Subjective Passages:  0
+Overly Objective Passages:  0
+<======== polarity ==============>
+Overly Positive Passages:  0
+Overly Negative Passages:  0
+<============ done ===========>
+
+
+<========== Book: 37 ================>
+Book:  Leaves of Grass_Walt Whitman
+Unique words:
+chant          0.223044
+poem           0.180130
+lo             0.134679
+comrade        0.116675
+prairie        0.106939
+poet           0.102918
+forever        0.096342
+universe       0.093431
+haply          0.091370
+myriad         0.090251
+limitless      0.086651
+bard           0.085637
+teeming        0.083756
+globe          0.080956
+pioneer        0.079640
+identity       0.075899
+immortal       0.075736
+countless      0.075293
+measureless    0.075191
+singer         0.073847
+dtype: float64
+<==== Writing Style ====>
+A Tale of Two Cities_Charles Dickens: 0.0760623479203
+<======== subjectivity ==============>
+Overly Subjective Passages:  0
+Overly Objective Passages:  0
+<======== polarity ==============>
+Overly Positive Passages:  2
+Overly Negative Passages:  0
+<============ done ===========>
+
+
+<========== Book: 38 ================>
+Book:  Les Miserables_Victor Hugo
+Unique words:
+marius         0.664584
+jean           0.500553
+rue            0.227599
+madeleine      0.159249
+franc          0.137667
+barricade      0.133889
+monsieur       0.120905
+sewer          0.091617
+bishop         0.088821
+le             0.075345
+sou            0.074268
+madame         0.072383
+la             0.067437
+convent        0.058107
+boulevard      0.055466
+napoleon       0.050518
+monseigneur    0.049872
+police         0.048355
+louis          0.048198
+bourgeois      0.047503
+dtype: float64
+<==== Writing Style ====>
+A Tale of Two Cities_Charles Dickens: 0.133763201256
+<======== subjectivity ==============>
+Overly Subjective Passages:  0
+Overly Objective Passages:  0
+<======== polarity ==============>
+Overly Positive Passages:  0
+Overly Negative Passages:  0
+<============ done ===========>
+
+
+<========== Book: 39 ================>
+Book:  Leviathan_Thomas Hobbes
+Unique words:
+hath          0.307799
+hee           0.277661
+moses         0.217900
+gods          0.211301
+christ        0.194754
+subjects      0.192210
+apostles      0.174736
+saviour       0.157716
+scripture     0.143918
+covenant      0.142824
+prophets      0.139185
+counsell      0.138088
+saith         0.135368
+laws          0.128056
+wee           0.125169
+assembly      0.117888
+bodies        0.117710
+kings         0.112910
+signes        0.105422
+consisteth    0.103937
+dtype: float64
+<==== Writing Style ====>
+<======== subjectivity ==============>
+Overly Subjective Passages:  0
+Overly Objective Passages:  1
+<======== polarity ==============>
+Overly Positive Passages:  0
+Overly Negative Passages:  0
+<============ done ===========>
+
+
+<========== Book: 40 ================>
+Book:  Little Women_Louisa May Alcott
+Unique words:
+jo             0.820863
+meg            0.412545
+amy            0.358440
+laurence       0.063461
+hannah         0.058287
+ca             0.048850
+wo             0.047171
+teddy          0.037449
+aunt           0.036690
+fred           0.027776
+fun            0.017857
+kate           0.015499
+parlor         0.014358
+daisy          0.013662
+funny          0.013232
+grandfather    0.012232
+sofa           0.011374
+christmas      0.010691
+bonnet         0.010155
+ned            0.010136
+dtype: float64
+<==== Writing Style ====>
+<======== subjectivity ==============>
+Overly Subjective Passages:  0
+Overly Objective Passages:  0
+<======== polarity ==============>
+Overly Positive Passages:  0
+Overly Negative Passages:  0
+<============ done ===========>
+
+
+<========== Book: 41 ================>
+Book:  Lysistrata_Aristophanes
+Unique words:
+magistrate      0.402860
+spartans        0.374806
+athenians       0.329714
+women           0.322006
+aristophanes    0.207066
+zeus            0.200789
+spartan         0.146619
+aphrodite       0.129112
+wi              0.126618
+herald          0.112371
+wo              0.098704
+chorus          0.088944
+athens          0.087719
+hellas          0.080695
+artemis         0.077074
+sparta          0.070653
+ally            0.065923
+aesthetic       0.065037
+tunic           0.065020
+athene          0.064556
+dtype: float64
+<==== Writing Style ====>
+<======== subjectivity ==============>
+Overly Subjective Passages:  11
+Overly Objective Passages:  1
+<======== polarity ==============>
+Overly Positive Passages:  14
+Overly Negative Passages:  3
+<============ done ===========>
+
+
+<========== Book: 42 ================>
+Book:  Meditations_Emperor of Rome Marcus Aurelius
+Unique words:
+unto          0.589952
+doth          0.395885
+thyself       0.340441
+whatsoever    0.227236
+hath          0.201178
+shalt         0.177520
+marcus        0.162407
+doest         0.132331
+hast          0.130962
+dost          0.110735
+thine         0.103684
+universe      0.099259
+mayest        0.096116
+gods          0.090922
+aurelius      0.083881
+whensoever    0.063795
+mayst         0.063197
+antoninus     0.060412
+wilt          0.059724
+stoic         0.056596
+dtype: float64
+<==== Writing Style ====>
+<======== subjectivity ==============>
+Overly Subjective Passages:  1
+Overly Objective Passages:  0
+<======== polarity ==============>
+Overly Positive Passages:  1
+Overly Negative Passages:  0
+<============ done ===========>
+
+
+<========== Book: 43 ================>
+Book:  Memoirs Of Fanny Hill_John Cleland
+Unique words:
+cole          0.459835
+whilst        0.327494
+thigh         0.239490
+phoebe        0.232956
+louisa        0.202295
+emily         0.162259
+modesty       0.119084
+petticoat     0.099946
+shift         0.098696
+landlady      0.092601
+maidenhead    0.081300
+favourable    0.078401
+lodging       0.077502
+polly         0.069540
+shew          0.068237
+shirt         0.068128
+shewed        0.067699
+posture       0.062230
+humour        0.060780
+gallant       0.057741
+dtype: float64
+<==== Writing Style ====>
+<======== subjectivity ==============>
+Overly Subjective Passages:  0
+Overly Objective Passages:  0
+<======== polarity ==============>
+Overly Positive Passages:  2
+Overly Negative Passages:  0
+<============ done ===========>
+
+
+<========== Book: 44 ================>
+Book:  Metamorphosis_Franz Kafka
+Unique words:
+charwoman    0.259070
+violin       0.248125
+bos          0.231806
+couch        0.223548
+cleaner      0.189659
+leant        0.171927
+realised     0.162704
+immobile     0.138771
+despite      0.131499
+ca           0.131285
+desk         0.131285
+salesman     0.123113
+crawl        0.111479
+totally      0.111479
+doorway      0.108799
+maybe        0.103354
+slammed      0.101501
+locksmith    0.101178
+hurriedly    0.098545
+broom        0.094768
+dtype: float64
+<==== Writing Style ====>
+A Doll's House_Henrik Ibsen: 0.12530551127
+<======== subjectivity ==============>
+Overly Subjective Passages:  3
+Overly Objective Passages:  0
+<======== polarity ==============>
+Overly Positive Passages:  1
+Overly Negative Passages:  0
+<============ done ===========>
+
+
+<========== Book: 45 ================>
+Book:  Miss Mephistopheles_Fergus Hume
+Unique words:
+kitty        0.503465
+ezra         0.392301
+villiers     0.379325
+stewart      0.351134
+meg          0.300280
+lazarus      0.267134
+caprice      0.220976
+mortimer     0.141340
+detective    0.132421
+melbourne    0.096409
+retorted     0.059767
+ca           0.056278
+jewel        0.053953
+isaiah       0.052697
+burlesque    0.051783
+robbery      0.051610
+humph        0.048156
+russell      0.045597
+faust        0.045569
+coolly       0.041644
+dtype: float64
+<==== Writing Style ====>
+<======== subjectivity ==============>
+Overly Subjective Passages:  0
+Overly Objective Passages:  0
+<======== polarity ==============>
+Overly Positive Passages:  0
+Overly Negative Passages:  0
+<============ done ===========>
+
+
+<========== Book: 46 ================>
+Book:  Moby Dick_Herman Melville
+Unique words:
+whale        0.770222
+ahab         0.463938
+sperm        0.213158
+whaling      0.101715
+harpoon      0.087563
+leviathan    0.077619
+deck         0.074276
+aye          0.073611
+crew         0.065920
+jonah        0.063749
+flask        0.060266
+ll           0.056045
+pip          0.053736
+dick         0.051363
+fishery      0.049900
+mate         0.046396
+shark        0.045390
+voyage       0.043644
+spout        0.041215
+cabin        0.035258
+dtype: float64
+<==== Writing Style ====>
+<======== subjectivity ==============>
+Overly Subjective Passages:  0
+Overly Objective Passages:  0
+<======== polarity ==============>
+Overly Positive Passages:  0
+Overly Negative Passages:  0
+<============ done ===========>
+
+
+<========== Book: 47 ================>
+Book:  My Secret Life_Anonymous
+Unique words:
+prick        0.579349
+fred         0.327970
+thigh        0.243444
+sarah        0.191015
+bum          0.187727
+jenny        0.174097
+kitty        0.157727
+mabel        0.137358
+wo           0.136290
+belly        0.131082
+laura        0.130306
+sperm        0.121654
+chemise      0.121470
+molly        0.113386
+recollect    0.112890
+cock         0.112396
+shilling     0.106204
+louise       0.105369
+ca           0.100408
+charlotte    0.099927
+dtype: float64
+<==== Writing Style ====>
+A Doll's House_Henrik Ibsen: 0.103703232557
+A Christmas Carol_Charles Dickens: 0.0798637111761
+<======== subjectivity ==============>
+Overly Subjective Passages:  0
+Overly Objective Passages:  0
+<======== polarity ==============>
+Overly Positive Passages:  0
+Overly Negative Passages:  0
+<============ done ===========>
+
+
+<========== Book: 48 ================>
+Book:  Narrative of the Captivity and Restoration of Mrs. Mary Rowlandson_Rowlandson
+Unique words:
+wigwam        0.467565
+indians       0.456564
+squaw         0.391940
+psalm         0.168052
+hoar          0.139435
+scripture     0.135390
+hath          0.134965
+bade          0.129502
+nut           0.116552
+affliction    0.100658
+sabbath       0.098342
+heathen       0.095569
+bible         0.092344
+captive       0.086279
+boston        0.084448
+christians    0.084206
+philip        0.083012
+afterward     0.078582
+unto          0.078578
+wilderness    0.076841
+dtype: float64
+<==== Writing Style ====>
+<======== subjectivity ==============>
+Overly Subjective Passages:  11
+Overly Objective Passages:  2
+<======== polarity ==============>
+Overly Positive Passages:  15
+Overly Negative Passages:  1
+<============ done ===========>
+
+
+<========== Book: 49 ================>
+Book:  Oliver Twist_Charles Dickens
+Unique words:
+oliver        0.841830
+jew           0.226111
+brownlow      0.224196
+monks         0.170307
+giles         0.146514
+nancy         0.142758
+bates         0.117712
+noah          0.114486
+beadle        0.102498
+charley       0.100181
+toby          0.073354
+rejoined      0.072028
+mann          0.068407
+yer           0.067919
+charlotte     0.051430
+matron        0.049091
+harry         0.047483
+workhouse     0.043736
+barney        0.043266
+undertaker    0.042326
+dtype: float64
+<==== Writing Style ====>
+<======== subjectivity ==============>
+Overly Subjective Passages:  0
+Overly Objective Passages:  0
+<======== polarity ==============>
+Overly Positive Passages:  0
+Overly Negative Passages:  0
+<============ done ===========>
+
+
+<========== Book: 50 ================>
+Book:  On Liberty_John Stuart Mill
+Unique words:
+individuality    0.226722
+interference     0.146894
+morality         0.131714
+persecution      0.123750
+christianity     0.123018
+majority         0.113139
+creed            0.112369
+humboldt         0.110025
+thinker          0.101483
+diversity        0.101404
+infallibility    0.097543
+despotism        0.096333
+intellect        0.095492
+penalty          0.092050
+christians       0.090932
+carlyle          0.090823
+community        0.090587
+ruler            0.089077
+institution      0.083900
+legitimate       0.082500
+dtype: float64
+<==== Writing Style ====>
+<======== subjectivity ==============>
+Overly Subjective Passages:  0
+Overly Objective Passages:  0
+<======== polarity ==============>
+Overly Positive Passages:  1
+Overly Negative Passages:  0
+<============ done ===========>
+
+
+<========== Book: 51 ================>
+Book:  Orloff and his Wife_Maxime Gorky
+Unique words:
+translator    0.273328
+khan          0.216750
+editor        0.201195
+russian       0.175596
+ca            0.174459
+wo            0.164147
+gazed         0.155053
+peasant       0.131447
+gnawed        0.126585
+barrack       0.122358
+tea           0.115182
+odor          0.113591
+hey           0.113099
+deacon        0.108602
+gray          0.103089
+bakery        0.101825
+police        0.100772
+ho            0.100534
+courtyard     0.097373
+policeman     0.096269
+dtype: float64
+<==== Writing Style ====>
+A Doll's House_Henrik Ibsen: 0.16312174244
+A Tale of Two Cities_Charles Dickens: 0.0862938695438
+A Christmas Carol_Charles Dickens: 0.0782607659441
+<======== subjectivity ==============>
+Overly Subjective Passages:  0
+Overly Objective Passages:  0
+<======== polarity ==============>
+Overly Positive Passages:  0
+Overly Negative Passages:  0
+<============ done ===========>
+
+
+<========== Book: 52 ================>
+Book:  Paradise Lost_John Milton
+Unique words:
+th           0.609024
+hee          0.286085
+hath         0.172257
+adam         0.160941
+gods         0.145645
+eve          0.144826
+aire         0.142834
+som          0.133290
+spake        0.125862
+oft          0.119772
+satan        0.116894
+angels       0.111651
+spirits      0.111484
+powers       0.102886
+paradise     0.099412
+hast         0.098856
+wilde        0.084525
+creatures    0.080733
+foe          0.078003
+sons         0.074606
+dtype: float64
+<==== Writing Style ====>
+<======== subjectivity ==============>
+Overly Subjective Passages:  0
+Overly Objective Passages:  0
+<======== polarity ==============>
+Overly Positive Passages:  1
+Overly Negative Passages:  0
+<============ done ===========>
+
+
+<========== Book: 53 ================>
+Book:  Persuasion_Jane Austen
+Unique words:
+anne          0.597399
+elliot        0.533807
+wentworth     0.412056
+russell       0.231496
+louisa        0.185662
+walter        0.175358
+henrietta     0.146518
+elizabeth     0.101250
+admiral       0.084798
+smith         0.064317
+camden        0.054127
+frederick     0.030274
+shepherd      0.027650
+cobb          0.027211
+attachment    0.025234
+connexion     0.024176
+colonel       0.022568
+shirley       0.021380
+enquiry       0.021271
+buildings     0.020887
+dtype: float64
+<==== Writing Style ====>
+<======== subjectivity ==============>
+Overly Subjective Passages:  0
+Overly Objective Passages:  0
+<======== polarity ==============>
+Overly Positive Passages:  4
+Overly Negative Passages:  0
+<============ done ===========>
+
+
+<========== Book: 54 ================>
+Book:  Peter Pan_J. M. Barrie
+Unique words:
+peter        0.799314
+hook         0.329412
+michael      0.215657
+tink         0.194610
+pirate       0.169412
+redskin      0.133757
+lagoon       0.120304
+tinker       0.096744
+crocodile    0.078823
+fairy        0.078143
+jane         0.075225
+nursery      0.074955
+ay           0.064971
+mermaid      0.059735
+kennel       0.053127
+curly        0.052311
+pan          0.051449
+twin         0.050102
+ll           0.045003
+isn          0.036849
+dtype: float64
+<==== Writing Style ====>
+A Christmas Carol_Charles Dickens: 0.122160434986
+<======== subjectivity ==============>
+Overly Subjective Passages:  2
+Overly Objective Passages:  0
+<======== polarity ==============>
+Overly Positive Passages:  3
+Overly Negative Passages:  0
+<============ done ===========>
+
+
+<========== Book: 55 ================>
+Book:  Pride and Prejudice_Jane Austen
+Unique words:
+elizabeth     0.707288
+jane          0.391975
+collins       0.297453
+lydia         0.291414
+catherine     0.165394
+gardiner      0.165305
+lucas         0.133209
+charlotte     0.132865
+kitty         0.110981
+aunt          0.075088
+colonel       0.063404
+ladyship      0.061056
+behaviour     0.054186
+civility      0.051571
+phillips      0.047240
+derbyshire    0.045672
+brighton      0.042286
+william       0.039715
+niece         0.035044
+eliza         0.034389
+dtype: float64
+<==== Writing Style ====>
+<======== subjectivity ==============>
+Overly Subjective Passages:  0
+Overly Objective Passages:  0
+<======== polarity ==============>
+Overly Positive Passages:  0
+Overly Negative Passages:  0
+<============ done ===========>
+
+
+<========== Book: 56 ================>
+Book:  Pygmalion_Bernard Shaw
+Unique words:
+liza         0.728880
+eliza        0.548351
+taker        0.167554
+ow           0.110559
+clara        0.108034
+colonel      0.099256
+henry        0.096632
+ca           0.086778
+governor     0.082780
+wo           0.076574
+ai           0.074734
+ottoman      0.063564
+bystander    0.055728
+piano        0.054883
+slipper      0.053402
+oo           0.046300
+shorthand    0.041152
+cab          0.038027
+pygmalion    0.033868
+duchess      0.032883
+dtype: float64
+<==== Writing Style ====>
+<======== subjectivity ==============>
+Overly Subjective Passages:  5
+Overly Objective Passages:  1
+<======== polarity ==============>
+Overly Positive Passages:  1
+Overly Negative Passages:  0
+<============ done ===========>
+
+
+<========== Book: 57 ================>
+Book:  Second Treatise of Government_John Locke
+Unique words:
+sect            0.620413
+legislative     0.458158
+commonwealth    0.279153
+hath            0.223095
+community       0.134585
+executive       0.115616
+preservation    0.113135
+prerogative     0.108521
+arbitrary       0.104796
+dominion        0.103737
+supreme         0.086698
+monarchy        0.079139
+subjection      0.073091
+paternal        0.072598
+politic         0.069059
+ruler           0.067232
+conqueror       0.065435
+compact         0.060513
+shew            0.060034
+magistrate      0.055529
+dtype: float64
+<==== Writing Style ====>
+<======== subjectivity ==============>
+Overly Subjective Passages:  0
+Overly Objective Passages:  2
+<======== polarity ==============>
+Overly Positive Passages:  0
+Overly Negative Passages:  0
+<============ done ===========>
+
+
+<========== Book: 58 ================>
+Book:  Sense and Sensibility_Jane Austen
+Unique words:
+willoughby    0.540981
+lucy          0.388036
+brandon       0.360654
+edward        0.344958
+middleton     0.243894
+barton        0.236663
+colonel       0.224378
+palmer        0.165023
+fanny         0.097624
+behaviour     0.084153
+cottage       0.070977
+cleveland     0.068575
+mama          0.066035
+margaret      0.065551
+park          0.059245
+devonshire    0.052880
+charlotte     0.047983
+robert        0.046616
+attachment    0.045186
+morton        0.043177
+dtype: float64
+<==== Writing Style ====>
+A Study in Scarlet_Arthur Conan Doyle: 0.0883260161916
+<======== subjectivity ==============>
+Overly Subjective Passages:  0
+Overly Objective Passages:  0
+<======== polarity ==============>
+Overly Positive Passages:  0
+Overly Negative Passages:  0
+<============ done ===========>
+
+
+<========== Book: 59 ================>
+Book:  Siddhartha_Hermann Hesse
+Unique words:
+buddha        0.529039
+ferryman      0.450954
+goal          0.223193
+quoth         0.213922
+exalted       0.169489
+monk          0.165640
+hut           0.131610
+childlike     0.131278
+oneness       0.125046
+grove         0.111082
+venerable     0.107529
+pilgrimage    0.099669
+ferry         0.094968
+today         0.090434
+ascetic       0.084501
+ferried       0.083898
+salvation     0.082972
+cycle         0.080212
+pilgrim       0.079824
+perfected     0.077266
+dtype: float64
+<==== Writing Style ====>
+<======== subjectivity ==============>
+Overly Subjective Passages:  3
+Overly Objective Passages:  0
+<======== polarity ==============>
+Overly Positive Passages:  14
+Overly Negative Passages:  0
+<============ done ===========>
+
+
+<========== Book: 60 ================>
+Book:  Songs of Innocence, and Songs of Experience_William Blake
+Unique words:
+electronic    0.417356
+er            0.253140
+songs         0.240629
+weep          0.200335
+lamb          0.195072
+archive       0.167308
+donation      0.167308
+license       0.164454
+copyright     0.160289
+trademark     0.154576
+refund        0.148906
+paragraph     0.144569
+fee           0.134880
+ebooks        0.110348
+tiger         0.107969
+morn          0.104234
+access        0.099758
+domain        0.094695
+format        0.091002
+http          0.088789
+dtype: float64
+<==== Writing Style ====>
+<======== subjectivity ==============>
+Overly Subjective Passages:  10
+Overly Objective Passages:  21
+<======== polarity ==============>
+Overly Positive Passages:  15
+Overly Negative Passages:  0
+<============ done ===========>
+
+
+<========== Book: 61 ================>
+Book:  The Adventures of Sherlock Holmes_Arthur Conan Doyle
+Unique words:
+holmes           0.910012
+sherlock         0.228266
+watson           0.163836
+simon            0.065498
+clair            0.062890
+baker            0.052664
+coronet          0.052226
+client           0.049273
+police           0.047592
+goose            0.047575
+inspector        0.043420
+turner           0.043240
+cab              0.038743
+wilson           0.038293
+photograph       0.034592
+coroner          0.034438
+ventilator       0.033551
+colonel          0.032924
+arthur           0.029958
+advertisement    0.029500
+dtype: float64
+<==== Writing Style ====>
+A Study in Scarlet_Arthur Conan Doyle: 0.73043193314
+<======== subjectivity ==============>
+Overly Subjective Passages:  0
+Overly Objective Passages:  0
+<======== polarity ==============>
+Overly Positive Passages:  0
+Overly Negative Passages:  0
+<============ done ===========>
+
+
+<========== Book: 62 ================>
+Book:  The Adventures of Tom Sawyer_Mark Twain
+Unique words:
+tom       0.872490
+ll        0.250590
+joe       0.234763
+ain       0.169858
+polly     0.098324
+ve        0.083094
+aunt      0.078686
+potter    0.068100
+sawyer    0.061889
+harper    0.061764
+didn      0.059923
+em        0.059433
+wouldn    0.058460
+cave      0.042026
+muff      0.041647
+maybe     0.040797
+ben       0.035220
+finn      0.033295
+pirate    0.032258
+auntie    0.032102
+dtype: float64
+<==== Writing Style ====>
+<======== subjectivity ==============>
+Overly Subjective Passages:  0
+Overly Objective Passages:  0
+<======== polarity ==============>
+Overly Positive Passages:  0
+Overly Negative Passages:  0
+<============ done ===========>
+
+
+<========== Book: 63 ================>
+Book:  The Autobiography of Benjamin Franklin_Benjamin Franklin
+Unique words:
+philadelphia     0.262771
+tho              0.261639
+franklin         0.250407
+governor         0.213033
+assembly         0.204327
+thro             0.160933
+autobiography    0.160251
+continu          0.143519
+proprietary      0.134800
+propos           0.128860
+pennsylvania     0.126918
+boston           0.126426
+waggon           0.123332
+receiv           0.120188
+printer          0.116894
+electronic       0.113126
+ralph            0.112083
+defense          0.098276
+benjamin         0.096868
+quakers          0.096071
+dtype: float64
+<==== Writing Style ====>
+A Modest Proposal_Jonathan Swift: 0.0920767511197
+<======== subjectivity ==============>
+Overly Subjective Passages:  0
+Overly Objective Passages:  1
+<======== polarity ==============>
+Overly Positive Passages:  1
+Overly Negative Passages:  0
+<============ done ===========>
+
+
+<========== Book: 64 ================>
+Book:  The Awakening_Kate Chopin
+Unique words:
+robert          0.485965
+mademoiselle    0.418435
+madame          0.416541
+ame             0.168737
+monsieur        0.157574
+la              0.141399
+victor          0.130141
+ma              0.126174
+clatter         0.083919
+ll              0.083919
+mexico          0.081857
+antoine         0.074827
+quadroon        0.074610
+isle            0.073217
+selle           0.072316
+ve              0.070034
+beach           0.069737
+mam             0.069071
+isn             0.066599
+petite          0.066191
+dtype: float64
+<==== Writing Style ====>
+A Tale of Two Cities_Charles Dickens: 0.259282094865
+<======== subjectivity ==============>
+Overly Subjective Passages:  0
+Overly Objective Passages:  0
+<======== polarity ==============>
+Overly Positive Passages:  1
+Overly Negative Passages:  0
+<============ done ===========>
+
+
+<========== Book: 65 ================>
+Book:  The Bible_Jesus
+Unique words:
+unto           0.786174
+israel         0.288900
+hath           0.214609
+shalt          0.165074
+saith          0.160716
+judah          0.134126
+jesus          0.108892
+moses          0.104937
+jerusalem      0.100133
+hast           0.099040
+thine          0.095817
+thereof        0.093760
+priest         0.080153
+spake          0.074755
+aaron          0.062583
+egypt          0.061617
+tabernacle     0.058845
+saul           0.058515
+christ         0.052760
+commandment    0.046759
+dtype: float64
+<==== Writing Style ====>
+<======== subjectivity ==============>
+Overly Subjective Passages:  0
+Overly Objective Passages:  0
+<======== polarity ==============>
+Overly Positive Passages:  0
+Overly Negative Passages:  0
+<============ done ===========>
+
+
+<========== Book: 66 ================>
+Book:  The Brothers Karamazov_Fyodor Dostoyevsky
+Unique words:
+ivan          0.720462
+ll            0.359805
+ve            0.331397
+rouble        0.212645
+prosecutor    0.162332
+didn          0.139570
+monk          0.112015
+monastery     0.096350
+peasant       0.079451
+moscow        0.075037
+russian       0.063252
+madame        0.059348
+wouldn        0.052390
+doesn         0.051963
+couldn        0.051112
+mamma         0.048752
+envelope      0.048729
+russia        0.046632
+honor         0.043833
+scoundrel     0.043242
+dtype: float64
+<==== Writing Style ====>
+A Study in Scarlet_Arthur Conan Doyle: 0.11575415579
+A Tale of Two Cities_Charles Dickens: 0.103218969323
+<======== subjectivity ==============>
+Overly Subjective Passages:  0
+Overly Objective Passages:  0
+<======== polarity ==============>
+Overly Positive Passages:  0
+Overly Negative Passages:  0
+<============ done ===========>
+
+
+<========== Book: 67 ================>
+Book:  The Complete Works of William Shakespeare_William Shakespeare
+Unique words:
+exeunt        0.335936
+hath          0.306261
+th            0.262403
+duke          0.197620
+exit          0.181812
+gloucester    0.176725
+doth          0.159826
+falstaff      0.146384
+antony        0.141872
+warwick       0.136971
+caesar        0.132104
+ay            0.128984
+brutus        0.122545
+timon         0.104279
+electronic    0.100854
+othello       0.100673
+henry         0.092831
+richard       0.090860
+hast          0.090071
+rosalind      0.089374
+dtype: float64
+<==== Writing Style ====>
+<======== subjectivity ==============>
+Overly Subjective Passages:  0
+Overly Objective Passages:  0
+<======== polarity ==============>
+Overly Positive Passages:  0
+Overly Negative Passages:  0
+<============ done ===========>
+
+
+<========== Book: 68 ================>
+Book:  The Count of Monte Cristo_Alexandre Dumas
+Unique words:
+monte           0.628796
+albert          0.345640
+valentine       0.330987
+franz           0.314675
+madame          0.240042
+abbé            0.186168
+franc           0.173614
+maximilian      0.155715
+mademoiselle    0.106174
+ali             0.085028
+excellency      0.082822
+baroness        0.077570
+monsieur        0.063289
+honor           0.059073
+countess        0.059023
+marseilles      0.053321
+bandit          0.049641
+notary          0.049481
+emmanuel        0.048266
+luigi           0.046074
+dtype: float64
+<==== Writing Style ====>
+A Tale of Two Cities_Charles Dickens: 0.140978363257
+<======== subjectivity ==============>
+Overly Subjective Passages:  0
+Overly Objective Passages:  0
+<======== polarity ==============>
+Overly Positive Passages:  0
+Overly Negative Passages:  0
+<============ done ===========>
+
+
+<========== Book: 69 ================>
+Book:  The Divine Comedy by Dante_Dante Alighieri
+Unique words:
+canto       0.365452
+hath        0.322517
+th          0.304401
+spake       0.256124
+doth        0.223978
+beatrice    0.186688
+mov         0.163450
+ere         0.150411
+unto        0.125529
+mayst       0.116821
+lo          0.113790
+shalt       0.112761
+hast        0.106375
+ken         0.101311
+thine       0.100404
+erewhile    0.084545
+dost        0.082080
+rais        0.079295
+aught       0.077700
+orb         0.073844
+dtype: float64
+<==== Writing Style ====>
+<======== subjectivity ==============>
+Overly Subjective Passages:  0
+Overly Objective Passages:  0
+<======== polarity ==============>
+Overly Positive Passages:  0
+Overly Negative Passages:  0
+<============ done ===========>
+
+
+<========== Book: 70 ================>
+Book:  The English Peasantry and the Enclosure of Common Fields_Gilbert Slater
+Unique words:
+enclosure        0.666758
+arable           0.274844
+parish           0.242921
+acre             0.237080
+enclosed         0.233711
+acts             0.160665
+area             0.160560
+pasture          0.125200
+fol              0.121136
+county           0.118269
+agriculture      0.097034
+norfolk          0.091054
+tithe            0.088385
+manor            0.072302
+inclosure        0.068170
+farmer           0.067912
+tenant           0.066845
+parliamentary    0.065775
+agricultural     0.060150
+labourer         0.059637
+dtype: float64
+<==== Writing Style ====>
+<======== subjectivity ==============>
+Overly Subjective Passages:  0
+Overly Objective Passages:  2
+<======== polarity ==============>
+Overly Positive Passages:  1
+Overly Negative Passages:  0
+<============ done ===========>
+
+
+<========== Book: 71 ================>
+Book:  The Federalist Papers_Alexander Hamilton
+Unique words:
+constitution       0.351963
+federal            0.306635
+legislature        0.294240
+executive          0.226969
+national           0.219611
+legislative        0.213710
+senate             0.172992
+convention         0.150515
+confederacy        0.149538
+judiciary          0.140418
+york               0.132948
+representative     0.130811
+publius            0.127311
+confederation      0.126500
+department         0.119756
+congress           0.113568
+citizen            0.111766
+representatives    0.104577
+jurisdiction       0.103158
+treaty             0.097780
+dtype: float64
+<==== Writing Style ====>
+<======== subjectivity ==============>
+Overly Subjective Passages:  0
+Overly Objective Passages:  0
+<======== polarity ==============>
+Overly Positive Passages:  0
+Overly Negative Passages:  0
+<============ done ===========>
+
+
+<========== Book: 72 ================>
+Book:  The Hound of the Baskervilles_Arthur Conan Doyle
+Unique words:
+holmes        0.620013
+watson        0.376884
+moor          0.367149
+mortimer      0.317240
+henry         0.278918
+baronet       0.158688
+hound         0.147650
+sherlock      0.125634
+coombe        0.071747
+lyons         0.067070
+ll            0.057641
+mire          0.057400
+hugo          0.054550
+hotel         0.053726
+convict       0.053629
+hut           0.048169
+cab           0.047493
+ve            0.044217
+devonshire    0.042681
+yew           0.037526
+dtype: float64
+<==== Writing Style ====>
+A Study in Scarlet_Arthur Conan Doyle: 0.526218608835
+<======== subjectivity ==============>
+Overly Subjective Passages:  0
+Overly Objective Passages:  0
+<======== polarity ==============>
+Overly Positive Passages:  0
+Overly Negative Passages:  0
+<============ done ===========>
+
+
+<========== Book: 73 ================>
+Book:  The Iliad_Homer
+Unique words:
+hector       0.391803
+achilles     0.312073
+jove         0.277741
+troy         0.270574
+trojan       0.204908
+patroclus    0.175670
+ajax         0.147390
+greece       0.146486
+greeks       0.129387
+grecian      0.119756
+homer        0.118673
+trojans      0.118597
+foe          0.116801
+courser      0.109855
+warrior      0.109468
+priam        0.108864
+steed        0.106005
+javelin      0.103226
+sire         0.102187
+nestor       0.101833
+dtype: float64
+<==== Writing Style ====>
+<======== subjectivity ==============>
+Overly Subjective Passages:  0
+Overly Objective Passages:  0
+<======== polarity ==============>
+Overly Positive Passages:  0
+Overly Negative Passages:  0
+<============ done ===========>
+
+
+<========== Book: 74 ================>
+Book:  The Importance of Being Earnest- A Trivial Comedy for Serious People_Oscar Wilde
+Unique words:
+gwendolen     0.669670
+jack          0.524253
+prism         0.319786
+ernest        0.242032
+chasuble      0.237018
+fairfax       0.086530
+augusta       0.086530
+electronic    0.068206
+aunt          0.063387
+muffin        0.053232
+christened    0.039267
+diary         0.035366
+goes          0.032468
+cigarette     0.027718
+archive       0.027342
+donation      0.027342
+license       0.026876
+copyright     0.026195
+mamma         0.026005
+trademark     0.025261
+dtype: float64
+<==== Writing Style ====>
+<======== subjectivity ==============>
+Overly Subjective Passages:  7
+Overly Objective Passages:  3
+<======== polarity ==============>
+Overly Positive Passages:  2
+Overly Negative Passages:  1
+<============ done ===========>
+
+
+<========== Book: 75 ================>
+Book:  The Interesting Narrative of the Life of Olaudah Equiano_Olaudah Equiano
+Unique words:
+esq         0.316674
+negro       0.252115
+sailed      0.231106
+sloop       0.194779
+jamaica     0.165267
+deck        0.157277
+georgia     0.157001
+indies      0.155228
+voyage      0.138961
+hon         0.131947
+africa      0.131340
+gustavus    0.131111
+irving      0.125228
+footnote    0.122857
+reverend    0.121666
+admiral     0.120854
+fleet       0.116870
+mate        0.104026
+african     0.094798
+africans    0.091536
+dtype: float64
+<==== Writing Style ====>
+<======== subjectivity ==============>
+Overly Subjective Passages:  1
+Overly Objective Passages:  0
+<======== polarity ==============>
+Overly Positive Passages:  4
+Overly Negative Passages:  0
+<============ done ===========>
+
+
+<========== Book: 76 ================>
+Book:  The Jungle Book_Rudyard Kipling
+Unique words:
+jungle      0.491769
+khan        0.387843
+nag         0.357794
+elephant    0.314020
+wolf        0.272382
+cub         0.222731
+teddy       0.200609
+billy       0.125715
+monkey      0.113877
+buffalo     0.093986
+mule        0.089396
+tiger       0.088278
+camel       0.080767
+bullock     0.077827
+beach       0.077382
+snake       0.074714
+ravine      0.073264
+bull        0.069544
+herd        0.066768
+panther     0.066567
+dtype: float64
+<==== Writing Style ====>
+<======== subjectivity ==============>
+Overly Subjective Passages:  0
+Overly Objective Passages:  0
+<======== polarity ==============>
+Overly Positive Passages:  0
+Overly Negative Passages:  0
+<============ done ===========>
+
+
+<========== Book: 77 ================>
+Book:  The Jungle_Upton Sinclair
+Unique words:
+dollar        0.418538
+packer        0.250836
+chicago       0.198471
+durham        0.181013
+saloon        0.169254
+cent          0.161856
+bos           0.158185
+car           0.148934
+fertilizer    0.141690
+policeman     0.130315
+workingman    0.121724
+hog           0.116618
+ll            0.113767
+jonas         0.112706
+ole           0.108943
+railroad      0.101135
+packing       0.099405
+ve            0.097925
+socialist     0.097478
+labor         0.092300
+dtype: float64
+<==== Writing Style ====>
+A Study in Scarlet_Arthur Conan Doyle: 0.0923014043058
+A Tale of Two Cities_Charles Dickens: 0.0883004348407
+<======== subjectivity ==============>
+Overly Subjective Passages:  0
+Overly Objective Passages:  0
+<======== polarity ==============>
+Overly Positive Passages:  0
+Overly Negative Passages:  0
+<============ done ===========>
+
+
+<========== Book: 78 ================>
+Book:  The Kama Sutra of Vatsyayana_Vatsyayana
+Unique words:
+courtesan      0.425972
+footnote       0.418802
+congress       0.397495
+sexual         0.291732
+harem          0.241336
+viz            0.178438
+ointment       0.115384
+eunuch         0.107717
+thigh          0.106961
+caste          0.090457
+lastly         0.089581
+sanscrit       0.089412
+kissing        0.088080
+festival       0.077014
+hindoos        0.074890
+women          0.074711
+citizen        0.073216
+elephant       0.069779
+intercourse    0.068385
+biting         0.064386
+dtype: float64
+<==== Writing Style ====>
+A Study in Scarlet_Arthur Conan Doyle: 0.0785786192962
+<======== subjectivity ==============>
+Overly Subjective Passages:  0
+Overly Objective Passages:  2
+<======== polarity ==============>
+Overly Positive Passages:  0
+Overly Negative Passages:  0
+<============ done ===========>
+
+
+<========== Book: 79 ================>
+Book:  The Last Frontier_E. Alexander Powell
+Unique words:
+africa          0.480151
+morocco         0.261766
+british         0.206790
+african         0.181395
+railway         0.170715
+seq             0.169855
+sahara          0.160558
+sultan          0.148367
+egypt           0.138257
+congo           0.134869
+colony          0.123227
+germany         0.117593
+nile            0.111892
+arab            0.109115
+colonial        0.105406
+territory       0.099470
+european        0.095057
+civilisation    0.091162
+et              0.090419
+american        0.087125
+dtype: float64
+<==== Writing Style ====>
+<======== subjectivity ==============>
+Overly Subjective Passages:  0
+Overly Objective Passages:  8
+<======== polarity ==============>
+Overly Positive Passages:  0
+Overly Negative Passages:  0
+<============ done ===========>
+
+
+<========== Book: 80 ================>
+Book:  The Legend of Sleepy Hollow_Washington Irving
+Unique words:
+van             0.305545
+tassel          0.195060
+ripper          0.193863
+schoolhouse     0.184245
+goblin          0.169118
+hessian         0.150783
+brook           0.150177
+neighborhood    0.147922
+hans            0.147396
+pedagogue       0.138297
+dutch           0.135020
+steed           0.134440
+crane           0.127724
+schoolmaster    0.118683
+gunpowder       0.111671
+favorite        0.105300
+hudson          0.101397
+farmhouse       0.094154
+spectre         0.092575
+pumpkin         0.092122
+dtype: float64
+<==== Writing Style ====>
+<======== subjectivity ==============>
+Overly Subjective Passages:  6
+Overly Objective Passages:  4
+<======== polarity ==============>
+Overly Positive Passages:  8
+Overly Negative Passages:  0
+<============ done ===========>
+
+
+<========== Book: 81 ================>
+Book:  The Life and Adventures of Robinson Crusoe_Daniel Defoe
+Unique words:
+friday         0.514378
+canoe          0.222141
+cave           0.167808
+voyage         0.162161
+goat           0.159317
+deliverance    0.147441
+powder         0.133847
+raft           0.125048
+electronic     0.108912
+plantation     0.108324
+cargo          0.101286
+tent           0.099706
+spaniard       0.098729
+habitation     0.098030
+wreck          0.088511
+kid            0.086875
+moidores       0.086070
+lisbon         0.085220
+crusoe         0.084105
+seaman         0.083445
+dtype: float64
+<==== Writing Style ====>
+<======== subjectivity ==============>
+Overly Subjective Passages:  0
+Overly Objective Passages:  0
+<======== polarity ==============>
+Overly Positive Passages:  0
+Overly Negative Passages:  0
+<============ done ===========>
+
+
+<========== Book: 82 ================>
+Book:  The Mysterious Affair at Styles_Agatha Christie
+Unique words:
+cavendish       0.546133
+cynthia         0.378394
+howard          0.316832
+dorcas          0.276523
+strychnine      0.264181
+lawrence        0.258766
+alfred          0.184833
+hastings        0.156816
+mademoiselle    0.105375
+ami             0.105051
+coroner         0.102212
+monsieur        0.101078
+mon             0.088951
+cocoa           0.087501
+emily           0.071195
+evelyn          0.069131
+boudoir         0.066430
+coffee          0.065787
+wilkins         0.065674
+inquest         0.065608
+dtype: float64
+<==== Writing Style ====>
+<======== subjectivity ==============>
+Overly Subjective Passages:  3
+Overly Objective Passages:  0
+<======== polarity ==============>
+Overly Positive Passages:  0
+Overly Negative Passages:  0
+<============ done ===========>
+
+
+<========== Book: 83 ================>
+Book:  The Odyssey_Homer
+Unique words:
+ulysses       0.707561
+telemachus    0.416293
+suitor        0.218647
+minerva       0.186258
+ithaca        0.180263
+jove          0.165831
+penelope      0.159694
+achaeans      0.098179
+swineherd     0.096570
+odyssey       0.093614
+antinous      0.090699
+menelaus      0.089441
+cloister      0.076323
+troy          0.073915
+neptune       0.072100
+laertes       0.066896
+nestor        0.058356
+greek         0.057996
+goddess       0.057433
+authoress     0.056879
+dtype: float64
+<==== Writing Style ====>
+<======== subjectivity ==============>
+Overly Subjective Passages:  0
+Overly Objective Passages:  1
+<======== polarity ==============>
+Overly Positive Passages:  2
+Overly Negative Passages:  0
+<============ done ===========>
+
+
+<========== Book: 84 ================>
+Book:  The Picture of Dorian Gray_Oscar Wilde
+Unique words:
+dorian       0.830443
+basil        0.290181
+harry        0.235049
+henry        0.218440
+gray         0.182042
+sibyl        0.157104
+vane         0.098810
+duchess      0.058729
+portrait     0.049688
+campbell     0.048268
+ca           0.045657
+murmured     0.041297
+painter      0.039375
+artist       0.032979
+wo           0.031464
+studio       0.031203
+agatha       0.028755
+hideous      0.028336
+erskine      0.027170
+cigarette    0.025664
+dtype: float64
+<==== Writing Style ====>
+<======== subjectivity ==============>
+Overly Subjective Passages:  0
+Overly Objective Passages:  0
+<======== polarity ==============>
+Overly Positive Passages:  1
+Overly Negative Passages:  0
+<============ done ===========>
+
+
+<========== Book: 85 ================>
+Book:  The Practice and Science of Drawing_Harold Speed
+Unique words:
+visual          0.285161
+painting        0.273094
+artist          0.272649
+diagram         0.245875
+vertical        0.203132
+illustration    0.189358
+lines           0.170864
+unity           0.161020
+artistic        0.156865
+composition     0.148262
+brush           0.139687
+horizontal      0.139288
+painter         0.136778
+illustrating    0.132148
+rhythmic        0.128670
+chalk           0.124566
+portrait        0.116718
+rhythm          0.115711
+accuracy        0.113827
+charcoal        0.105192
+dtype: float64
+<==== Writing Style ====>
+<======== subjectivity ==============>
+Overly Subjective Passages:  0
+Overly Objective Passages:  0
+<======== polarity ==============>
+Overly Positive Passages:  0
+Overly Negative Passages:  0
+<============ done ===========>
+
+
+<========== Book: 86 ================>
+Book:  The Prince_Niccolò Machiavelli
+Unique words:
+machiavelli     0.371601
+florentines     0.327929
+duke            0.287565
+lucca           0.242018
+principality    0.225375
+florence        0.188740
+pisa            0.176381
+francesco       0.170213
+italy           0.163879
+pope            0.147716
+venetians       0.126051
+alexander       0.125634
+infantry        0.121471
+whilst          0.118671
+medici          0.107518
+di              0.106127
+giovanni        0.105937
+valour          0.102491
+romagna         0.097264
+florentine      0.095799
+dtype: float64
+<==== Writing Style ====>
+<======== subjectivity ==============>
+Overly Subjective Passages:  1
+Overly Objective Passages:  0
+<======== polarity ==============>
+Overly Positive Passages:  3
+Overly Negative Passages:  0
+<============ done ===========>
+
+
+<========== Book: 87 ================>
+Book:  The Republic_Plato
+Unique words:
+plato          0.494855
+socrates       0.299516
+philosopher    0.194655
+ruler          0.183145
+philosophy     0.181920
+guardian       0.156625
+injustice      0.154139
+republic       0.152919
+citizen        0.150734
+unjust         0.149079
+poet           0.144496
+ideal          0.129898
+homer          0.126695
+greek          0.118508
+tyrant         0.118158
+gymnastic      0.116790
+democracy      0.108284
+aristotle      0.088264
+temperance     0.085515
+dialectic      0.081180
+dtype: float64
+<==== Writing Style ====>
+<======== subjectivity ==============>
+Overly Subjective Passages:  0
+Overly Objective Passages:  0
+<======== polarity ==============>
+Overly Positive Passages:  0
+Overly Negative Passages:  0
+<============ done ===========>
+
+
+<========== Book: 88 ================>
+Book:  The Sacred Herb_Fergus Hume
+Unique words:
+rover        0.412474
+ned          0.411809
+oliver       0.379060
+marie        0.298984
+horace       0.280161
+sophia       0.278334
+madame       0.241389
+constance    0.205207
+dolly        0.149899
+herb         0.126974
+grange       0.114629
+domino       0.113228
+barrister    0.096587
+easter       0.064522
+inspector    0.061710
+trance       0.058545
+aunt         0.058277
+ca           0.057498
+felix        0.051250
+murdered     0.048022
+dtype: float64
+<==== Writing Style ====>
+A Tale of Two Cities_Charles Dickens: 0.112926330709
+<======== subjectivity ==============>
+Overly Subjective Passages:  0
+Overly Objective Passages:  0
+<======== polarity ==============>
+Overly Positive Passages:  0
+Overly Negative Passages:  0
+<============ done ===========>
+
+
+<========== Book: 89 ================>
+Book:  The Scarlet Letter_Nathaniel Hawthorne
+Unique words:
+pearl         0.596047
+roger         0.277129
+scarlet       0.270882
+clergyman     0.168262
+physician     0.147259
+reverend      0.119180
+hath          0.117294
+governor      0.109607
+surveyor      0.092284
+scaffold      0.090382
+wilson        0.088222
+brook         0.086175
+wilt          0.085495
+hawthorne     0.073786
+arthur        0.069293
+hast          0.067785
+yonder        0.066221
+magistrate    0.065448
+dost          0.064340
+symbol        0.060108
+dtype: float64
+<==== Writing Style ====>
+<======== subjectivity ==============>
+Overly Subjective Passages:  0
+Overly Objective Passages:  0
+<======== polarity ==============>
+Overly Positive Passages:  0
+Overly Negative Passages:  0
+<============ done ===========>
+
+
+<========== Book: 90 ================>
+Book:  The Souls of Black Folk_W. E. B. Du Bois
+Unique words:
+negro           0.610150
+negroes         0.377257
+freedman        0.231895
+bureau          0.181072
+economic        0.138406
+laborer         0.130146
+training        0.118050
+washington      0.113885
+slavery         0.113771
+dollar          0.107209
+georgia         0.101074
+ideal           0.098612
+cotton          0.093811
+southern        0.082830
+american        0.077278
+cent            0.075671
+county          0.074257
+acre            0.074257
+tenant          0.071301
+emancipation    0.069023
+dtype: float64
+<==== Writing Style ====>
+<======== subjectivity ==============>
+Overly Subjective Passages:  0
+Overly Objective Passages:  0
+<======== polarity ==============>
+Overly Positive Passages:  0
+Overly Negative Passages:  0
+<============ done ===========>
+
+
+<========== Book: 91 ================>
+Book:  The Strange Case of Dr. Jekyll and Mr. Hyde_Robert Louis Stevenson
+Unique words:
+hyde             0.710266
+poole            0.551246
+cabinet          0.145730
+henry            0.128166
+edward           0.123373
+laboratory       0.070323
+drug             0.067660
+soho             0.065874
+butler           0.063324
+ay               0.059995
+cheque           0.055586
+theatre          0.047503
+bradshaw         0.039411
+disappearance    0.039132
+carew            0.037642
+fog              0.034948
+cab              0.033542
+murderer         0.033026
+envelope         0.031662
+harry            0.031301
+dtype: float64
+<==== Writing Style ====>
+<======== subjectivity ==============>
+Overly Subjective Passages:  0
+Overly Objective Passages:  0
+<======== polarity ==============>
+Overly Positive Passages:  0
+Overly Negative Passages:  0
+<============ done ===========>
+
+
+<========== Book: 92 ================>
+Book:  The Time Machine_H. G. Wells
+Unique words:
+traveller       0.373637
+psychologist    0.297981
+sphinx          0.212284
+lever           0.204959
+laboratory      0.194884
+medical         0.156532
+bronze          0.152644
+editor          0.145844
+camphor         0.144987
+gallery         0.130444
+dimension       0.116346
+porcelain       0.109914
+pedestal        0.098709
+slower          0.093940
+blackness       0.092472
+journalist      0.090384
+lit             0.090246
+shaft           0.077181
+lawn            0.073891
+mechanism       0.068883
+dtype: float64
+<==== Writing Style ====>
+<======== subjectivity ==============>
+Overly Subjective Passages:  0
+Overly Objective Passages:  1
+<======== polarity ==============>
+Overly Positive Passages:  2
+Overly Negative Passages:  0
+<============ done ===========>
+
+
+<========== Book: 93 ================>
+Book:  The Tragical History of Doctor Faustus_Christopher Marlowe
+Unique words:
+footnote     0.772447
+wagner       0.296442
+lucifer      0.192062
+exeunt       0.175537
+ed           0.167011
+ralph        0.140937
+robin        0.127658
+vintner      0.096848
+hath         0.094258
+clown        0.090182
+exit         0.089498
+sirrah       0.088723
+emperor      0.087526
+ay           0.070748
+unto         0.070598
+knight       0.067226
+hast         0.063277
+duke         0.058654
+cornelius    0.051077
+goblet       0.051063
+dtype: float64
+<==== Writing Style ====>
+A Study in Scarlet_Arthur Conan Doyle: 0.114026226931
+<======== subjectivity ==============>
+Overly Subjective Passages:  7
+Overly Objective Passages:  18
+<======== polarity ==============>
+Overly Positive Passages:  17
+Overly Negative Passages:  0
+<============ done ===========>
+
+
+<========== Book: 94 ================>
+Book:  The Turn of the Screw_Henry James
+Unique words:
+miles         0.557914
+flora         0.410416
+ve            0.292287
+ll            0.255676
+didn          0.238553
+schoolroom    0.148650
+couldn        0.137594
+douglas       0.095944
+governess     0.079933
+isn           0.073272
+literally     0.072156
+wasn          0.070921
+colleague     0.063466
+certitude     0.062175
+doesn         0.059950
+queer         0.059757
+harley        0.059706
+faced         0.057064
+prodigious    0.053037
+recognized    0.052313
+dtype: float64
+<==== Writing Style ====>
+A Study in Scarlet_Arthur Conan Doyle: 0.100907367748
+<======== subjectivity ==============>
+Overly Subjective Passages:  1
+Overly Objective Passages:  0
+<======== polarity ==============>
+Overly Positive Passages:  2
+Overly Negative Passages:  0
+<============ done ===========>
+
+
+<========== Book: 95 ================>
+Book:  The Valley of Gold_David Howarth
+Unique words:
+ned         0.808662
+ll          0.275663
+andy        0.217146
+margaret    0.140543
+nick        0.121864
+gang        0.120198
+murphy      0.116136
+rob         0.106879
+dad         0.091942
+knight      0.089828
+outfit      0.087239
+ford        0.082257
+butte       0.075782
+trail       0.070755
+ve          0.068387
+yer         0.052989
+tank        0.049582
+hank        0.047364
+wheat       0.046964
+tis         0.043687
+dtype: float64
+<==== Writing Style ====>
+<======== subjectivity ==============>
+Overly Subjective Passages:  0
+Overly Objective Passages:  0
+<======== polarity ==============>
+Overly Positive Passages:  3
+Overly Negative Passages:  0
+<============ done ===========>
+
+
+<========== Book: 96 ================>
+Book:  The War of the Worlds_H. G. Wells
+Unique words:
+cylinder        0.359640
+pit             0.300577
+curate          0.209939
+artilleryman    0.207124
+mars            0.191082
+tentacle        0.164510
+chertsey        0.134599
+scullery        0.130312
+railway         0.122452
+planet          0.118323
+smashed         0.116299
+henderson       0.107133
+pine            0.103027
+weed            0.102780
+blackened       0.096412
+cart            0.096149
+vapour          0.086148
+thames          0.083112
+northward       0.080613
+richmond        0.080058
+dtype: float64
+<==== Writing Style ====>
+<======== subjectivity ==============>
+Overly Subjective Passages:  0
+Overly Objective Passages:  0
+<======== polarity ==============>
+Overly Positive Passages:  0
+Overly Negative Passages:  0
+<============ done ===========>
+
+
+<========== Book: 97 ================>
+Book:  The Wonderful Wizard of Oz_L. Frank Baum
+Unique words:
+dorothy      0.801032
+scarecrow    0.353646
+woodman      0.310518
+toto         0.202986
+witch        0.156808
+tin          0.148699
+kansas       0.106894
+emerald      0.089628
+wizard       0.063559
+winged       0.044084
+balloon      0.038431
+traveler     0.037555
+mouse        0.033988
+em           0.033672
+axe          0.033046
+stuffed      0.032468
+cyclone      0.032334
+throne       0.029356
+aunt         0.028370
+cowardly     0.028200
+dtype: float64
+<==== Writing Style ====>
+<======== subjectivity ==============>
+Overly Subjective Passages:  6
+Overly Objective Passages:  0
+<======== polarity ==============>
+Overly Positive Passages:  13
+Overly Negative Passages:  0
+<============ done ===========>
+
+
+<========== Book: 98 ================>
+Book:  The Yellow Wallpaper_Charlotte Perkins Gilman
+Unique words:
+creeping      0.196373
+nursery       0.186499
+fungus        0.179601
+moonlight     0.172093
+ca            0.157326
+daytime       0.155982
+arbor         0.155334
+downstairs    0.135631
+wallpaper     0.135394
+perkins       0.129319
+waddling      0.129319
+color         0.128961
+plantain      0.124183
+radiation     0.124183
+breadth       0.120063
+toadstool     0.119734
+bedstead      0.118804
+faster        0.117342
+physician     0.112213
+charlotte     0.106223
+dtype: float64
+<==== Writing Style ====>
+A Doll's House_Henrik Ibsen: 0.116771056481
+<======== subjectivity ==============>
+Overly Subjective Passages:  24
+Overly Objective Passages:  6
+<======== polarity ==============>
+Overly Positive Passages:  15
+Overly Negative Passages:  10
+<============ done ===========>
+
+
+<========== Book: 99 ================>
+Book:  Through the Looking-Glass_Lewis Carroll
+Unique words:
+alice      0.968012
+ll         0.129263
+ve         0.087381
+knight     0.074529
+didn       0.061237
+couldn     0.060594
+kitty      0.053187
+unicorn    0.049482
+kitten     0.048280
+wouldn     0.037667
+gnat       0.035614
+walrus     0.029239
+hadn       0.028304
+dinah      0.027118
+isn        0.026639
+queens     0.023402
+shouldn    0.023226
+wasn       0.019338
+pudding    0.018464
+doesn      0.018314
+dtype: float64
+<==== Writing Style ====>
+<======== subjectivity ==============>
+Overly Subjective Passages:  0
+Overly Objective Passages:  3
+<======== polarity ==============>
+Overly Positive Passages:  3
+Overly Negative Passages:  0
+<============ done ===========>
+
+
+<========== Book: 100 ================>
+Book:  Treasure Island_Robert Louis Stevenson
+Unique words:
+jim          0.411793
+squire       0.342861
+hawkins      0.260358
+gunn         0.246372
+stockade     0.182134
+hands        0.171948
+rum          0.170179
+ben          0.169753
+flint        0.165822
+buccaneer    0.142016
+morgan       0.133269
+mutineer     0.122810
+anchorage    0.118798
+mate         0.111611
+schooner     0.110861
+ashore       0.106059
+seaman       0.103505
+aboard       0.103285
+dick         0.102691
+joyce        0.101762
+dtype: float64
+<==== Writing Style ====>
+<======== subjectivity ==============>
+Overly Subjective Passages:  0
+Overly Objective Passages:  0
+<======== polarity ==============>
+Overly Positive Passages:  0
+Overly Negative Passages:  0
+<============ done ===========>
+
+
+<========== Book: 101 ================>
+Book:  Ulysses_James Joyce
+Unique words:
+bloom         0.562533
+stephen       0.555378
+ll            0.158503
+dublin        0.127448
+joe           0.125057
+buck          0.105888
+cunningham    0.102645
+leopold       0.097313
+molly         0.086810
+lynch         0.082521
+irish         0.080981
+martin        0.077856
+haines        0.075447
+lambert       0.070652
+ireland       0.070505
+ben           0.065531
+ned           0.065167
+didn          0.060206
+citizen       0.057530
+crawford      0.056023
+dtype: float64
+<==== Writing Style ====>
+A Christmas Carol_Charles Dickens: 0.10357210381
+A Study in Scarlet_Arthur Conan Doyle: 0.0780907969935
+A Tale of Two Cities_Charles Dickens: 0.0778857753201
+<======== subjectivity ==============>
+Overly Subjective Passages:  0
+Overly Objective Passages:  0
+<======== polarity ==============>
+Overly Positive Passages:  0
+Overly Negative Passages:  0
+<============ done ===========>
+
+
+<========== Book: 102 ================>
+Book:  Uncle Tom's Cabin_Harriet Beecher Stowe
+Unique words:
+tom        0.516965
+clare      0.428430
+ophelia    0.322155
+ll         0.284172
+yer        0.213011
+ve         0.166287
+em         0.156642
+eliza      0.156347
+chloe      0.155256
+marie      0.146329
+missis     0.138422
+ar         0.112617
+sam        0.112124
+nigger     0.096664
+andy       0.095777
+dinah      0.079967
+didn       0.076940
+dat        0.075017
+isn        0.067800
+mammy      0.067314
+dtype: float64
+<==== Writing Style ====>
+A Study in Scarlet_Arthur Conan Doyle: 0.0842737305424
+<======== subjectivity ==============>
+Overly Subjective Passages:  0
+Overly Objective Passages:  0
+<======== polarity ==============>
+Overly Positive Passages:  0
+Overly Negative Passages:  0
+<============ done ===========>
+
+
+<========== Book: 103 ================>
+Book:  Walden, and On The Duty Of Civil Disobedience_Henry David Thoreau
+Unique words:
+pond         0.513383
+walden       0.391594
+pine         0.168588
+neighbor     0.146063
+concord      0.126679
+labor        0.119115
+railroad     0.118439
+perchance    0.116099
+farmer       0.109071
+bean         0.104352
+dollar       0.083853
+rod          0.078821
+hunter       0.074923
+hoe          0.073294
+color        0.072653
+squirrel     0.070924
+loon         0.068301
+cellar       0.065041
+townsman     0.064068
+meadow       0.063412
+dtype: float64
+<==== Writing Style ====>
+<======== subjectivity ==============>
+Overly Subjective Passages:  0
+Overly Objective Passages:  0
+<======== polarity ==============>
+Overly Positive Passages:  0
+Overly Negative Passages:  0
+<============ done ===========>
+
+
+<========== Book: 104 ================>
+Book:  War and Peace_Leo Tolstoy
+Unique words:
+pierre          0.694023
+andrew          0.341922
+moscow          0.264567
+princess        0.221453
+nicholas        0.194821
+countess        0.172172
+napoleon        0.168229
+emperor         0.148347
+russian         0.136347
+anna            0.109027
+ll              0.102236
+adjutant        0.090967
+commander       0.086502
+petersburg      0.083938
+hussar          0.076888
+regiment        0.062295
+mademoiselle    0.052467
+berg            0.048842
+russians        0.048803
+peasant         0.047799
+dtype: float64
+<==== Writing Style ====>
+<======== subjectivity ==============>
+Overly Subjective Passages:  0
+Overly Objective Passages:  0
+<======== polarity ==============>
+Overly Positive Passages:  0
+Overly Negative Passages:  0
+<============ done ===========>
+
+
+<========== Book: 105 ================>
+Book:  Wuthering Heights_Emily Bronte
+Unique words:
+catherine     0.694075
+edgar         0.301137
+heights       0.267095
+nelly         0.228399
+grange        0.212454
+joseph        0.210682
+ellen         0.208382
+isabella      0.133202
+dean          0.110448
+papa          0.099247
+wo            0.094019
+yah           0.068520
+moor          0.061078
+ca            0.057060
+electronic    0.051759
+th            0.040257
+muttered      0.038707
+commenced     0.038071
+pony          0.037908
+parlour       0.036810
+dtype: float64
+<==== Writing Style ====>
+A Doll's House_Henrik Ibsen: 0.0828488635021
+<======== subjectivity ==============>
+Overly Subjective Passages:  0
+Overly Objective Passages:  0
+<======== polarity ==============>
+Overly Positive Passages:  0
+Overly Negative Passages:  0
+<============ done ===========>
+
