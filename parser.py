@@ -6,6 +6,7 @@ import io
 import math
 import json
 import sys
+import requests
 from textblob import TextBlob
 import re
 import matplotlib.pyplot as plt
@@ -29,6 +30,31 @@ from time import time
 from sklearn import preprocessing
 import numpy as np
 
+#1095795417803-ib7lfe5qoopenn5fb6pcc3hl3mc0k5vi.apps.googleusercontent.com
+#fkhRwDih-fTXVNCFabnh6a-h
+
+def getOnlineMeta(search):
+    try:
+        api_key = "AIzaSyAKskTPH3h-aT3y6U7N2_gQVUMMMULhzBY"
+        params = {'q' : search, 'key': api_key}
+        text = requests.get('https://www.googleapis.com/books/v1/volumes', params=params).text
+        data = json.loads(text)
+        meta = {}
+        cats = ['description','publishedDate','title','subtitle','pageCount','maturityRating', 'infoLink',
+                'authors','categories','previewLink','imageLinks','averageRating','ratingsCount','searchInfo']
+
+        for k,v in data["items"][0].items():
+            if k == "volumeInfo":
+                for k2,v2 in v.items():
+                    if k2 in cats:
+                        meta[k2] = v2
+            if k in cats:
+                meta[k] = v
+
+        return meta
+    except Exception as e:
+        print(e)
+        return None
 
 def get_files(path):
     for (dirpath, _, filenames) in os.walk(path):
@@ -47,8 +73,8 @@ def getBookName(book):
 
 def getStopWords():
     from sklearn.feature_extraction import text
-    my_stops = ['said','just','did','going','wa','let']
-    stop_words = text.ENGLISH_STOP_WORDS.union(my_stops)
+    my_stops = ['in','and','i','if','to','as']
+    stop_words = list(text.ENGLISH_STOP_WORDS.union(my_stops))
     return stop_words
 
 def saveData(nFile, data):
@@ -67,6 +93,16 @@ class analyzeShit:
         self.populateContent()
         self.populateTags()
         self.populateMood()
+        self.populateoMeta()
+
+    def populateoMeta(self):
+        trys = [self.name.replace("_"," "), self.name.split("_")[0], self.name.split("_")[1]]
+        for tri in trys:
+            search =  getOnlineMeta(tri)
+            if search:
+                self.meta['oMeta'] = search
+                return
+        self.meta['oMeta'] = None
 
     def populateTags(self):
         counts = Counter([ x[1] for x in self.blob.tags])
@@ -79,6 +115,7 @@ class analyzeShit:
             'pol': self.meta['pol'],
             'sub': self.meta['sub'],
             'tags': self.meta['tags'],
+            'oMeta': self.meta['oMeta']
         }
 
     #populate polarity and subjectivity
@@ -93,44 +130,20 @@ class analyzeShit:
             self.meta['sub'] += [blob.sentiment.subjectivity]
             self.meta['pol'] += [blob.sentiment.polarity]
 
-            # print(blob.sentiment)
-        # sMax = int(float(len(self.blob.sentences)) / float(self.sects))
-        # print('sMax: ', sMax)
-        # sCount = 0
-        # sParagraph = ""
-        # sPolarity = []
-        # sSubjectivity = []
-        # sHold = []
-        # for sentence in blob.sentences:
-        #     sSubjectivity += [sentence.sentiment.subjectivity]
-        #     sPolarity += [sentence.sentiment.polarity]
-        #     sParagraph += '{}'.format(sentence).decode('utf-8').replace('\n','') + ' '
-        #     sCount += 1
-        #     if sCount == sMax:
-        #         sHold += [sParagraph]
-        #         s = np.array(sSubjectivity)
-        #         p = np.array(sPolarity)
-        #         self.meta['sub'] += [np.mean(s)]
-        #         self.meta['pol'] += [np.mean(p)]
-        #         sCount = 0
-        #         sParagraph = ""
-        #         sPolarity = []
-        #         sSubjectivity = []
-        #     if len(self.meta['sub']) == self.sects or len(self.meta['pol']) == self.sects:
-        #         break
-
-    #populate content
-    #\*\*\* .* OF THIS PROJECT GUTENBERG EBOOK .* \*\*\*
-    #\*\*\* END OF THIS PROJECT GUTENBERG EBOOK * \*\*\*
-    #re.split("\s+", str1)
     def populateContent(self):
         stoppy_words = getStopWords()
         words = []
-        for idx2, sentence in enumerate(self.blob.sentences):
-            for x in sentence.words:
-                if x.isalpha() and x.lower() not in stoppy_words:
-                    words += [x.lemmatize()]
+        for tag in self.blob.tags:
+            if not 'NNP' in tag[1] and not 'VB' in tag[1] and tag[0].isalpha() \
+              and tag[0].lower() not in stoppy_words and len(tag[0]) > 2:
+                words += [tag[0].lemmatize().lower()]
         self.meta['words'] = words
+
+        # for idx2, sentence in enumerate(self.blob.sentences):
+        #     for x in sentence.words:
+        #         if x.isalpha() and x.lower() not in stoppy_words:
+        #             words += [x.lemmatize()]
+        # self.meta['words'] = words
 
 # Marshal books in folder
 cache = {}

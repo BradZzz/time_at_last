@@ -28,6 +28,33 @@ playersC = [{
     'moves' : ['l','u','l','u','l','l','u','u','r','u','l','u','u','l','l','d','d','r']
 }]
 
+playersD = [{
+    'pos' : (0,0),
+    'moves' : ['r','d','d','r','r','r','l','l','l','d','d','d','l','d','d','d','d','r']
+},
+{
+    'pos' : (9,9),
+    'moves' : ['u','l','l','u','l','l','u','l','l','d','d','l','l','u','u','r','u','l']
+}]
+
+playersE = [{
+    'pos' : (0,0),
+    'moves' : ['r','d','r','r','d','d','l','d','l','d','r','d','l','d','l','u','u','u']
+},
+{
+    'pos' : (9,9),
+    'moves' : ['l','u','l','u','u','l','l','u','l','d','d','d','l','d','l','l','u','l']
+}]
+
+playersF = [{
+    'pos' : (0,0),
+    'moves' : ['d','d','r','r','r','u','r','d','d','d','d','l','d','r','r','r','u','u']
+},
+{
+    'pos' : (9,9),
+    'moves' : ['l','l','l','u','u','l','u','u','u','r','r','u','l','l','l','l','u','r']
+}]
+
 def parseMove(move):
     return {
         'l': (-1,0),
@@ -65,13 +92,25 @@ def playGame(board, players):
             print 'Winner: ', player + 1
         else:
             print 'Draw: ', player + 1
-
-board = [[0 for x in range(w)] for y in range(h)]
-playGame(board, players)
+#
+# print("Round A")
+# board = [[0 for x in range(w)] for y in range(h)]
+# playGame(board, players)
+print("Round B")
 board = [[0 for x in range(w)] for y in range(h)]
 playGame(board, playersB)
+print("Round C")
 board = [[0 for x in range(w)] for y in range(h)]
 playGame(board, playersC)
+# print("Round D")
+# board = [[0 for x in range(w)] for y in range(h)]
+# playGame(board, playersD)
+# print("Round E")
+# board = [[0 for x in range(w)] for y in range(h)]
+# playGame(board, playersE)
+print("Round F")
+board = [[0 for x in range(w)] for y in range(h)]
+playGame(board, playersF)
 
 
 

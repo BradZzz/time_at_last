@@ -29,7 +29,7 @@ import pandas as pd
 import numpy as np
 from sklearn.metrics.pairwise import cosine_similarity
 from scipy import sparse
-
+import operator
 
 def get_files(path):
   for (dirpath, _, filenames) in os.walk(path):
@@ -65,15 +65,20 @@ def interpretSimilar(names, similarities, idx):
     if idx != pos and pos < 6:
       print(str(names[pos]) + ': ' + str(matrix[pos]))
 
-def saveData(nFile, data):
-  target = open(nFile, 'w')
-  target.write(data)
-  target.close()
-  return target
-
 def createSimilarities(arr):
   tok = sparse.csr_matrix(arr)
   return cosine_similarity(tok)
+
+def printFromList(title, names, list, scale):
+  # if scale:
+  #   list = np.array(list)
+  #   list = (list-min(list))/(max(list)-min(list))
+  sorted = np.argsort(list)[::-1]
+  print('<======================= Begin ' + title + ' =====================>')
+  for sim in range(0,6):
+    if sim != 0 and list[sorted[sim]] > 0:
+      print(str(names[sorted[sim]]) + ': ' + str(list[sorted[sim]]))
+  print('<======================= End ' + title + ' =====================>')
 
 titles = getCompiledBooks()
 datum = []
@@ -81,43 +86,78 @@ for title in titles:
   data = openFile(title)
   datum += [data]
 
-books = len(datum)
+summary = openFile("./analyzed/summary.json")
 names = map(lambda x: x['name'].encode(encoding='UTF-8',errors='strict'),datum)
 
-# sub_sim = map(lambda x: -1 if x < .3 else (1 if x > .7 else 0), x['sub'])
-# sub_pol = map(lambda x: -1 if x < -.3 else (1 if x > .3 else 0), x['pol'])
+for book in datum:
+  idx = summary['books'].index(book['name'])
+  print('|____________________________________________________________________|')
+  print("Book: " + book['name'])
+  print("Meta: " + str(book['oMeta']))
+  word_similarity = summary['word_similarity'][idx]
+  printFromList('word similarity', names, word_similarity, False)
+  polarity = summary['polarity'][idx]
+  printFromList('polarity', names, polarity, True)
+  subjectiveness = summary['subjectiveness'][idx]
+  printFromList('subjectiveness', names, subjectiveness, True)
+  total = 0
+  newTags = {}
+  print("<== Tags ==>")
+  for key, val in book['tags'].items():
+    storedKey = key
+    if 'NN' in key:
+      storedKey = 'NN'
+    elif 'VB' in key:
+      storedKey = 'VB'
+    elif 'PRP' in key:
+      storedKey = 'PRP'
+    elif 'JJ' in key:
+      storedKey = 'JJ'
+    elif 'RB' in key:
+      storedKey = 'RB'
+    elif 'WP' in key:
+      storedKey = 'WP'
 
-sub_sim = createSimilarities(map(lambda x: map(lambda y: -1 if y < .3 else (1 if y > .7 else 0), x['sub']), datum))
-sub_pol = createSimilarities(map(lambda x: map(lambda y: -1 if y < -.3 else (1 if y > .3 else 0), x['pol']), datum))
+    if storedKey not in newTags:
+      newTags[storedKey] = 0
+    newTags[storedKey] += val
+    total+= val
+  newTags = sorted(newTags.items(), key=operator.itemgetter(1))[::-1]
+  for tag in newTags:
+    formVal = "{0:.2f}".format((float(tag[1]) / float(total)) * 100)
+    print("\t" + tag[0] + ": " + formVal + "%")
+  print('|____________________________________________________________________|')
 
-# vectorizer = TfidfVectorizer(sublinear_tf=True, min_df=0.05, max_df=0.5, stop_words='english')
-vectorizer = TfidfVectorizer(min_df=0.03, max_df=0.5, stop_words='english')
-#train on all books that aren't the main book
-words = map(lambda x: ' '.join(x['words']).encode(encoding='UTF-8',errors='strict'),datum)
-X_train = vectorizer.fit_transform(words)
-features = vectorizer.get_feature_names()
-# words in first book
-cosineSim = (X_train * X_train.T).A
 
-definingWords = []
-for idx in range(0,books):
-  d = pd.Series(X_train.getrow(idx).toarray().flatten(), index = features).sort_values(ascending=False)
-  wyrds = {}
-  for x in range(0,20):
-    wyrds[d.index[x]] = d[x]
-  definingWords += [wyrds]
 
-summary = {
-  'books' : names,
-  'defining_words' : definingWords,
-  'word_similarity' : cosineSim.tolist(),
-  'polarity' : np.array(sub_pol).tolist(),
-  'subjectiveness' : np.array(sub_sim).tolist(),
-}
-
-filename = "./analyzed/summary.json"
-saveData(filename,json.dumps(summary).encode('utf-8'))
-
+# books = len(datum)
+# names = map(lambda x: x['name'].encode(encoding='UTF-8',errors='strict'),datum)
+#
+# sub_sim = createSimilarities(map(lambda x: x['sub'], datum))
+# sub_pol = createSimilarities(map(lambda x: x['pol'], datum))
+#
+# # vectorizer = TfidfVectorizer(sublinear_tf=True, min_df=0.05, max_df=0.5, stop_words='english')
+# vectorizer = TfidfVectorizer(min_df=0.03, max_df=0.5, stop_words='english')
+# #train on all books that aren't the main book
+# words = map(lambda x: ' '.join(x['words']).encode(encoding='UTF-8',errors='strict'),datum)
+# X_train = vectorizer.fit_transform(words)
+# features = vectorizer.get_feature_names()
+# # words in first book
+# cosineSim = (X_train * X_train.T).A
+# for idx in range(0,books):
+#   print()
+#   print('<========== Book: ' + str(idx) + ' ================>')
+#   print("Book: ", names[idx])
+#   d = pd.Series(X_train.getrow(idx).toarray().flatten(), index = features).sort_values(ascending=False)
+#   print('Unique words:')
+#   print(d[:20])
+#   sorted = np.argsort(cosineSim[idx])
+#   print('<==== Writing Style ====>')
+#   for similar in range(0,6):
+#     pos = sorted[::-1][similar]
+#     # if idx != pos and pos < 6 and cosineSim[idx][pos] > .075:
+#     if idx != pos:
+#       print(str(names[pos]) + ': ' + str(cosineSim[idx][pos]))
 #
 #   #instead of this, go through the books, stats and tell the user how objective happy sad it is...
 #   subMap = map(lambda x: -1 if x < .3 else (1 if x > .7 else 0), datum[idx]['sub'])
