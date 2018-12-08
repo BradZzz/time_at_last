@@ -30,9 +30,6 @@ from time import time
 from sklearn import preprocessing
 import numpy as np
 
-#1095795417803-ib7lfe5qoopenn5fb6pcc3hl3mc0k5vi.apps.googleusercontent.com
-#fkhRwDih-fTXVNCFabnh6a-h
-
 def getOnlineMeta(search):
     try:
         api_key = ""
