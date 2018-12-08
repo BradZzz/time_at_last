@@ -17,11 +17,14 @@
   Works with the content of each book in respect to every other book:
     * Look at the sentiment over time and mark period of book where it crossed certain thresholds.
     * Use TFIDF vectorization to compare common and unique words in all books and output most similar books.
-    * Use cosine similarity
+    * Use cosine similarity to characterize defining words in each book that appear the least in the other books.
 
 I have added an output of the text as well to this repo as results.txt.
+
+### Demo
+  A demo of this technique is below.
+[Final product demo](https://gentle-waters-98866.herokuapp.com/)
 
 ![alt text](screens/screen01.png "Screen 1")
 ![alt text](screens/screen02.png "Screen 2")
 ![alt text](screens/screen03.png "Screen 3")
-[Final product demo](https://gentle-waters-98866.herokuapp.com/)
