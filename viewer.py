@@ -92,7 +92,7 @@ names = map(lambda x: x['name'].encode(encoding='UTF-8',errors='strict'),datum)
 for book in datum:
   idx = summary['books'].index(book['name'])
   print('|____________________________________________________________________|')
-  print("Book: " + book['name'])
+  print("Book: " + book['name'].encode('ascii', 'ignore'))
   print("Meta: " + str(book['oMeta']))
   word_similarity = summary['word_similarity'][idx]
   printFromList('word similarity', names, word_similarity, False)

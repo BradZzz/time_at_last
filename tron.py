@@ -108,9 +108,9 @@ playGame(board, playersC)
 # print("Round E")
 # board = [[0 for x in range(w)] for y in range(h)]
 # playGame(board, playersE)
-print("Round F")
+print("Round D")
 board = [[0 for x in range(w)] for y in range(h)]
-playGame(board, playersF)
+playGame(board, playersD)
 
 
 

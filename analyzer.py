@@ -29,6 +29,7 @@ import pandas as pd
 import numpy as np
 from sklearn.metrics.pairwise import cosine_similarity
 from scipy import sparse
+from nltk.corpus import wordnet
 
 
 def get_files(path):
@@ -93,6 +94,20 @@ sub_pol = createSimilarities(map(lambda x: map(lambda y: -1 if y < -.3 else (1 i
 # vectorizer = TfidfVectorizer(sublinear_tf=True, min_df=0.05, max_df=0.5, stop_words='english')
 vectorizer = TfidfVectorizer(min_df=0.03, max_df=0.5, stop_words='english')
 #train on all books that aren't the main book
+
+# for dat in datum:
+#   if dat['name'] == 'The Divine Comedy by Dante_Dante Alighieri':
+#     for word in dat['words']:
+#       wrd = word.lower()
+#       # print("word: ", wrd)
+#       syns = wordnet.synsets(wrd)
+#       if len(syns) > 0:
+#         for syn in syns:
+#           if len(syn.lemmas()) > 1:
+#             print('<=============' + wrd + '==============>')
+#             for lem in syn.lemmas()[1:]:
+#               print("lemma: ", lem.name())
+
 words = map(lambda x: ' '.join(x['words']).encode(encoding='UTF-8',errors='strict'),datum)
 X_train = vectorizer.fit_transform(words)
 features = vectorizer.get_feature_names()
@@ -117,6 +132,14 @@ summary = {
 
 filename = "./analyzed/summary.json"
 saveData(filename,json.dumps(summary).encode('utf-8'))
+
+
+
+
+
+
+
+
 
 #
 #   #instead of this, go through the books, stats and tell the user how objective happy sad it is...
