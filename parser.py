@@ -35,7 +35,7 @@ import numpy as np
 
 def getOnlineMeta(search):
     try:
-        api_key = "AIzaSyAKskTPH3h-aT3y6U7N2_gQVUMMMULhzBY"
+        api_key = ""
         params = {'q' : search, 'key': api_key}
         text = requests.get('https://www.googleapis.com/books/v1/volumes', params=params).text
         data = json.loads(text)
